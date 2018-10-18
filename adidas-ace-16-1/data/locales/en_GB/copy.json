@@ -1,0 +1,216 @@
+{
+    "global" : {
+        "product_name_long": {
+            "purecontrol": "<b>ace</b> 16+ <b>purecontrol</b>",
+            "primeknit": "<b>ace</b> 16.1",
+            "tkrz": "<b>ace</b> 16+ <b>tkrz</b>"
+        },
+        "product_name_short": {
+            "purecontrol": "purecontrol",
+            "primeknit": "16.1",
+            "tkrz": "tkrz"
+        },
+        "hashtag": "#bethedifference",
+        "shop_button_prefix": "shop",
+        "view_button_prefix": "View",
+        "pre_order_button_prefix": "pre-order",
+        "shop_collection_button_label": "Shop the collection",
+        "see_collection_button_label": "See the collection",
+        "view_collection_button_label": "View the collection",
+        "navigation": {
+            "purecontrol": {
+                "body": [
+                    "laceless technology",
+                    "for a perfect first touch"
+                ]
+            },
+            "primeknit": {
+                "body": [
+                    "The engineered Primeknit boot",
+                    "design provides a truer touch"
+                ]
+            },
+            "tkrz": {
+                "body": [
+                    "The urban football first allowing you",
+                    "to full control to boss your opponents"
+                ]
+            }
+        },
+        "footer": {
+            "shop_all_boots_button_label": "Shop all boots",
+            "see_all_boots_button_label": "See all boots",
+            "view_all_boots_button_label": "View all boots",
+            "shop_all_collections_label": "Shop all collections",
+            "see_all_collections_label": "See all collections",
+            "view_all_collections_label": "View all collections",
+            "title": [
+                "Looking for something else?",
+                "Explore adidas football"
+            ]
+        },
+        "collection": {
+            "title": [
+                "Check out the entire ace collection",
+                "and complete your look"
+            ]
+        }
+    },
+    "purecontrol" : {
+        "hero": {
+            "title": "Boss everyone"
+        },
+        "intro": {
+            "title": "Mesut \u00d6zil",
+            "body": "When it comes to a boot built to pull the strings, there's nothing better for me than the ACE. The level of touch and feel on the ball is incredible \u2013 it's so natural and responsive to play in, I've got confidence behind every pass I make"
+        },
+        "product_detail": {
+            "techfit": {
+                "title": "Techfit",
+                "body": "Lateral stability through the internal knit support system. This anchors your foot and enables you to BOSS it.",
+                "side_navigation_label": "Techfit"
+            },
+            "purecontrol": {
+                "title": "Purecontrol",
+                "body": "The laceless upper design molds to your foot perfectly like a second skin, getting you closer to the ball and ahead of your opponent.",
+                "side_navigation_label": "Purecontrol"
+            },
+            "ground_ctrl": {
+                "title": "Ground/ctrl 2.0",
+                "body": "Perfect balance, traction and control. This innovative enhanced Sprintframe stud design is playable on FG and AG pitches.",
+                "side_navigation_label": "Ground/ctrl 2.0"
+            },
+            "primeknit": {
+                "title": "16.1",
+                "body": "Perfect ball control due to specially engineered knit zones that fit snugly to your foot. Allowing you to BOSS the game.",
+                "side_navigation_label": "16.1"
+            },
+            "primecut": {
+                "title": "Primecut",
+                "body": "Perfect fit and stability, due to a sock-like ankle fit that streamlines the boots connection to your foot. Go command the field with confidence.",
+                "side_navigation_label": "Primecut"
+            }
+        },
+        "quote": {
+            "body": [
+                "The game is yours for the taking.",
+                "Dictate the play. Lead from the front."
+            ],
+            "title": [
+                "Control everything.",
+                "Boss everyone."
+            ]
+        }
+    },
+    "primeknit" : {
+        "hero": {
+            "title": "Boss everyone",
+            "shop_ace_collection_button_label": "shop ace collection",
+            "view_ace_collection_button_label": "View ace collection"
+        },
+        "intro": {
+            "title": "Boss everyone",
+            "subtitle_prefix": "With",
+            "body": [
+                "Control isn't just about the ball anymore.",
+                "It isn't limited to one material on an upper either.",
+                "Whether you favor revolutionary laceless technology, unrivaled Primeknit,",
+                "a lightweight synthetic or the unmatched touch of leather,",
+                "the adidas ACE comes in your speed and your size to boss the game.",
+                "The next 90 minutes are yours.",
+                "Join the most precise and creative players in the world",
+                "and find the tool you need to take over in the adidas ACE 16.1."
+            ]
+        },
+        "product_detail": {
+            "primeknit": {
+                "title": "Control Web",
+                "body": "adidas has taken their 3D Control Web from the ACE 15.1 and given it an upgrade. Now made for a compression styled fit, the new Control Web is perfect for that extra bit of grip you need to take command when dribbling, passing and shooting.",
+                "side_navigation_label": "Control Web"
+            },
+            "ground_ctrl": {
+                "title": "Leather",
+                "body": [
+                    "Super soft kangaroo leather always provides the softest touch in any game, and that's exactly what adidas has gone with for their ACE 16.1 Leather.",
+                    "A new stitch pattern helps the leather keep its shape longer."
+                ],
+                "side_navigation_label": "Leather"
+            },
+            "primecut": {
+                "title": "TPU Stripes",
+                "body": [ "The stripes on both the lateral and medial sides of the foot are made from TPU and wrap around the foot.",
+                		   "This keeps you locked in place during every cut, every sprint and every strike."
+                ],
+                "side_navigation_label": "TPU Stripes"
+            },
+            "techfit": {
+                "title": "Strike Zone",
+                "body": "The tongue on the new adidas ACE 16.1 has been designed with specific lace covers moving up the tongue. This helps to provide a laceless feel when striking and touching a ball.",
+                "side_navigation_label": "Strike Zone"
+            },
+            "ground_control": {
+                "title": "GroundCTRL 2.0",
+                "body": [ "A brand new outsole has been combined with the SprintFrame of old. Reusing the SprintFrame from their F50 adiZero range to reduce weight, the GroundCTRL 2.0 is a complete upgrade from the previous sole plate.", 
+                		  "Still able to be used on both artificial grass and firm ground, the GroundCTRL 2.0 is the perfect outsole for anyone looking to Boss the Game."
+                ],
+                "side_navigation_label": "GroundCTRL 2.0"
+            }
+        },
+        "quote": {
+            "body": [
+                "Let your boots do the talking.",
+                "It's your time to steal the show."
+            ],
+            "title": [
+                "Control everything.",
+                "Boss everyone."
+            ]
+        }
+    },
+    "links": {
+        "purecontrol": {
+            "hero": {
+                "shop_button_href": "http://www.adidas.com/ace_16_plus_purecontrol",
+                "view_button_href": "http://www.adidas.com/ace_16_plus_purecontrol"
+            },
+            "product_detail": {
+                "shop_button_href": "http://www.adidas.com/ace_16_plus_purecontrol",
+                "view_button_href": "http://www.adidas.com/ace_16_plus_purecontrol"
+            },
+            "collection": {
+                "shop_collection_button_href": "http://www.adidas.com/ace_clothing",
+                "see_collection_button_href": "http://www.adidas.com/ace_clothing"
+            }
+        },
+        "primeknit": {
+            "hero": {
+                "shop_primeknit_button_href": "/Product.process?sku=82367",
+                "view_primeknit_button_href": "/Product.process?sku=82367",
+                "shop_ace_collection_button_href": "/Navigation.process?Ne=21&Srp=48&N=4294960675+4294959043+4294127203&Sn=P_BasePrice&So=0",
+                "view_ace_collection_button_href": "/Navigation.process?Ne=21&Srp=48&N=4294960675+4294959043+4294127203&Sn=P_BasePrice&So=0",
+                "pre_order_primeknit_button_href": "/Product.process?sku=82367"
+            },
+            "product_detail": {
+                "shop_button_href": "/Product.process?sku=82367",
+                "view_button_href": "/Product.process?sku=82367",
+                "pre_order_button_href": "/Product.process?sku=82367"
+            },
+            "collection": {
+                "see_collection_button_href": "/Navigation.process?Ne=21&Srp=48&N=4294960675+4294959043+4294127203&Sn=P_BasePrice&So=0",
+                "shop_collection_button_href": "/Navigation.process?Ne=21&Srp=48&N=4294960675+4294959043+4294127203&Sn=P_BasePrice&So=0"
+            }
+        },
+        "global": {
+            "footer": {
+                "see_all_boots_button_href": "/Navigation.process?Ne=646&Srp=48&N=4294960675+4294959043",
+                "see_all_collections_href": "/Navigation.process?Sn=P_BasePrice&Srp=48&So=0&N=4294959043+4294127203",
+                "shop_all_boots_button_href": "/Navigation.process?Ne=646&Srp=48&N=4294960675+4294959043",
+                "shop_all_collections_href": "/Navigation.process?Sn=P_BasePrice&Srp=48&So=0&N=4294959043+4294127203"
+            }
+        }
+    }
+}
+
+
+
+

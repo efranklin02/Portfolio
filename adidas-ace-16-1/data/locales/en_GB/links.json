@@ -1,0 +1,37 @@
+{
+    "master": {
+        "purecontrol.hero.shop_button_href": "http://www.adidas.com/ace_16_plus_purecontrol",
+        "purecontrol.hero.view_button_href": "http://www.adidas.com/ace_16_plus_purecontrol",
+        "purecontrol.product_detail.shop_button_href": "http://www.adidas.com/ace_16_plus_purecontrol",
+        "purecontrol.product_detail.view_button_href": "http://www.adidas.com/ace_16_plus_purecontrol",
+        "purecontrol.collection.shop_collection_button_href": "http://www.adidas.com/ace_clothing",
+        "purecontrol.collection.see_collection_button_href": "http://www.adidas.com/ace_clothing",
+
+        "primeknit.hero.shop_primeknit_button_href": "/Product.process?sku=82367",
+        "primeknit.hero.view_primeknit_button_href": "/Product.process?sku=82367",
+        "primeknit.hero.shop_ace_collection_button_href": "/Navigation.process?Ne=21&Srp=48&N=4294960675+4294959043+4294127203&Sn=P_BasePrice&So=0",
+        "primeknit.hero.view_ace_collection_button_href": "/Navigation.process?Ne=21&Srp=48&N=4294960675+4294959043+4294127203&Sn=P_BasePrice&So=0",
+        "primeknit.hero.pre_order_primeknit_button_href": "/Product.process?sku=82367",
+        "primeknit.product_detail.shop_button_href": "/Product.process?sku=82367",
+        "primeknit.product_detail.view_button_href": "/Product.process?sku=82367",
+        "primeknit.product_detail.pre_order_button_href": "/Product.process?sku=82367",
+        "primeknit.collection.see_collection_button_href": "/Navigation.process?Sn=P_BasePrice&Srp=48&So=0&N=4294959043+4294127203",
+        "primeknit.collection.shop_collection_button_href": "/Navigation.process?Sn=P_BasePrice&Srp=48&So=0&N=4294959043+4294127203",
+
+        "tkrz.hero.shop_ace_tkrz_button_href": "http://www.adidas.com/ace_16_plus_tkrz",
+        "tkrz.hero.view_ace_tkrz_button_href": "http://www.adidas.com/ace_16_plus_tkrz",
+        "tkrz.hero.shop_tkrz_button_href": "http://www.adidas.com/ace_16_plus_tkrz",
+        "tkrz.hero.view_tkrz_button_href": "http://www.adidas.com/ace_16_plus_tkrz",
+        "tkrz.hero.pre_order_ace_tkrz_button_href": "http://www.adidas.com/ace_16_plus_tkrz",
+        "tkrz.product_detail.shop_button_href": "http://www.adidas.com/ace_16_plus_tkrz",
+        "tkrz.product_detail.view_button_href": "http://www.adidas.com/ace_16_plus_tkrz",
+        "tkrz.product_detail.pre_order_button_href": "http://www.adidas.com/ace_16_plus_tkrz",
+        "tkrz.collection.see_collection_button_href": "http://www.adidas.com/ace_clothing",
+        "tkrz.collection.shop_collection_button_href": "http://www.adidas.com/ace_clothing",
+        
+        "global.footer.see_all_boots_button_href": "http://www.global.adidas.com/football-shoes",
+        "global.footer.see_all_collections_href": "http://www.adidas.com/ace_clothing",
+        "global.footer.shop_all_boots_button_href": "http://www.global.adidas.com/football-shoes",
+        "global.footer.shop_all_collections_href": "http://www.adidas.com/ace_clothing"
+    },
+}

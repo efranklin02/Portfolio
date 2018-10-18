@@ -1,0 +1,387 @@
+/* Foundation overrides */
+
+body {
+	margin: 0;
+}
+
+.top-bar {
+ background-color: #000;
+ width: 100% !important;
+ margin-top: 0 !important;
+ padding: 0;
+ height: 47px;
+ position: fixed;
+ z-index: 999;
+}
+
+.top-bar img {
+    width: 200px;
+}
+
+.top-bar ul {
+	background-color: #000;
+}
+
+.top-bar ul li {
+	font-size: 13px;
+}
+
+.top-bar a {
+    color: #fff;
+}
+
+.title-bar {
+	/* position: fixed;
+	width: 100%;
+	z-index: 1000; */
+}
+
+
+.callout {
+	border: 0;
+}
+
+.button {
+	background-color: #000;
+	text-transform: uppercase;
+	font-family: "Open Sans Condensed",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.button:focus, .button:hover {
+	background-color: #575D96;
+}
+
+.button.large {
+    font-size: 1.2rem;
+}
+
+.callout.secondary {
+    background-color: #000;
+    margin: 0;
+    color: #fff;
+}
+
+.callout.primary {
+    background-color: #e50079;
+    margin: 0;
+    color: #fff;
+}
+
+img {
+	width: 100%;
+	
+}
+
+/* .row.expanded {
+    max-width: 100%;
+} */
+
+.dropdown-pane {
+	width: 100%;
+}
+
+.fa {
+ color: #fff;
+ font-size: x-large;
+}
+
+.tabs {
+	background-color: #f4e500;
+}
+
+.tabs, .tabs-content {
+    border: medium none;
+}
+
+.tabs-title {
+	width: 50%;
+}
+
+.tabs-title > a {
+	color: #000;
+}
+
+.is-active > a {
+	color: #fff;
+}
+
+.tabs-title > a {
+	text-transform: uppercase;
+	font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+	font-size: 24px;
+	text-align: center;
+}
+
+.owl-theme .owl-nav [class*="owl-"] {
+	background-color: #000;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+	background-color: #000;
+}
+
+video {
+  /* transform-origin: 20% 50%;
+  -webkit-transform-orgin: 20% 50%;*/
+  display: block;
+  font-size: 0;
+} 
+
+/* audio, video {
+	display: block;
+	font-size: 0;
+} */
+
+h1, h2, h3, h4, h6 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+}
+
+h5 {
+	font-family: "Open Sans Condensed",Helvetica,Arial,sans-serif;
+	font-weight: 700;
+	font-size: 25px;
+    text-transform: uppercase;
+}
+
+dl, ol, ul {
+    list-style-position: inside;
+}
+
+/* End Foundation overrides */
+
+
+
+/* Custom Styles */ 
+
+/* Parallax */
+.parallax [class*="bg__"] {
+  position: relative;
+  height: 800px;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+.parallax .bg__foo, .parallax .bg__bazz {
+  /* height: 100vh; */
+}
+
+.parallax .bg__inner {
+  background-image: url("../img/copa-paralax.jpg");
+}
+
+/* end Parallax */
+
+
+.logosize {
+    width: 160px;
+}
+
+.footmarg {
+padding-bottom:4em;
+}
+
+.sliderMarg {
+	margin: 10% 0 0 0;
+}
+
+.exmarg {
+margin:3% 0 3% 0;
+}
+
+
+.extop {
+margin:3% 0 0 0;
+}
+
+.exbot {
+margin:0 0 3% 0;
+}
+
+.bordered {
+border: 1px solid transparent;
+}
+
+.red {
+	background-color: #611729;
+	color: #f200f7;
+}
+
+.red p, .red h2 {
+	padding: 0 20px 0 20px;
+}
+
+
+#slideSpeed {
+	background-color: #e50079; 
+	color: #fff;
+}
+
+#slidePower	{
+	background-color: #f4e500;
+	color: #000;
+}
+
+.tabs-title > a:focus, .tabs-title > a#panelSpeed-label {
+	background-color: #e50079;
+}
+
+.tabs-title > a:focus, .tabs-title > a#panelPower-label {
+	background-color: #f4e500;
+}
+
+.tabs-panel {
+ padding: 0;
+ margin: 0;
+}
+
+[alt~=Lightweight], [alt~=Stability], [alt~=Explosive], [alt~=Power], [alt~=Accuracy], [alt~=Touch], [alt~=Traction] {
+    width: 167px !important;
+}
+
+hr.styleone {
+	border-top: 1px dotted #333;
+}
+
+.trickshero {
+	position: relative;
+}
+
+.loud {
+	bottom: 24%;
+    left: 11%;
+    position: absolute;
+    width: 80%;
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+}
+
+.tricks-trans {
+	position: absolute;
+	top: 80%;
+}
+
+
+/* #owl-five img{
+ min-width: 500px;
+} */
+
+.float-text {
+	 bottom: 5%;
+    position: absolute;
+    right: 32.4%;
+    width: 35%;
+}
+
+.gray {
+	background-color: #f3f3f6;
+}
+
+.gif {
+	width: 200px;
+}
+
+.bottomrow a:hover{
+	opacity: 0.7;
+	-webkit-transition: opacity .35s ease-in-out;
+    -moz-transition: opacity .35s ease-in-out;
+     -ms-transition: opacity .35s ease-in-out;
+    -o-transition: opacity .35s ease-in-out;
+    transition: opacity .35s ease-in-out;
+}
+
+
+.image-wrapper {
+  width: 100%;
+  /* height: 100%; */
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  /* border-radius: 4px; */ }
+
+.image-overlay-content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0; }
+
+.overlay-fade-in p {
+  letter-spacing: 0.15em;
+  color: #f4f4f4;
+  font-size: 28px;
+  opacity: 0;
+  transition: all 0.2s linear; }
+.overlay-fade-in img {
+  transition: all 0.2s linear; }
+.overlay-fade-in .image-overlay-content {
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: all 0.4s ease-in-out; }
+.overlay-fade-in h2 {
+  color: #f2f2f2;
+  font-size: 1.5rem;
+  margin-top: 20%;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+  background: rgba(0, 0, 0, 0.7); }
+.overlay-fade-in .button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  background: #FFF;
+  color: #222;
+  text-transform: uppercase;
+  box-shadow: 0 0 1px #000;
+  position: relative;
+  border: 1px solid #999;
+  opacity: 0;
+  transition: all 0.2s ease-in-out; }
+  .overlay-fade-in .button:hover {
+    box-shadow: 0 0 5px #000; }
+.overlay-fade-in:hover img {
+  transform: scale(1.2); }
+.overlay-fade-in:hover .image-overlay-content {
+  opacity: 1; }
+.overlay-fade-in:hover h2, .overlay-fade-in p, .overlay-fade-in .button {
+  opacity: 1; }
+.overlay-fade-in:hover p {
+  transition-delay: 0.1s; }
+.overlay-fade-in:hover .button {
+  transition-delay: 0.2s; }
+
+
+#fixedBar {
+    background: #000;
+    height: 54px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+#fixedBar img {
+    margin: 12px;
+    width: 260px;
+    display: inline;
+}
+
+
+/* End Custom Styles */ 

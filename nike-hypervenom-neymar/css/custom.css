@@ -1,0 +1,239 @@
+/* Foundation overrides */
+
+body {
+	margin: 50px 0 0 0;
+}
+
+.top-bar {
+ background-color: #4e4f4f;
+ width: 100% !important;
+ margin-top: 0 !important;
+ padding: 0;
+}
+
+.top-bar ul {
+	background-color: #4e4f4f;
+}
+
+.top-bar a {
+    color: #fff;
+}
+
+.callout {
+	border: 0;
+}
+
+.button {
+	background-color: #b00304;
+	text-transform: uppercase;
+	font-family: "Oswald",Helvetica,Roboto,Arial,sans-serif;
+    font-weight: 400;
+}
+
+.button:focus, .button:hover {
+	background-color: #9f0102;
+}
+
+.button.large {
+    font-size: 1rem;
+}
+
+.callout.secondary {
+    background-color: #b00304;
+    margin: 0;
+    color: #fff;
+}
+
+.callout.primary {
+    background-color: #000;
+    margin: 0;
+    color: #fff;
+}
+
+img {
+	width: 100%;
+	
+}
+.neymarlogo {
+	max-height: 313px;
+}
+
+.orbit-next, .orbit-previous {
+    color: #000;
+}
+
+.dropdown-pane {
+	width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Oswald",Helvetica,Roboto,Arial,sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+/* End Foundation overrides */
+
+
+
+/* Custom Styles */ 
+
+/* Parallax */
+.parallax [class*="bg__"] {
+  position: relative;
+  height: 800px;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+.parallax .bg__foo, .parallax .bg__bazz {
+  /* height: 100vh; */
+}
+
+.parallax .bg__hero {
+  background-image: url("../img/hero-main.jpg");
+}
+
+.parallax .bg__inner {
+  background-image: url("../img/parallax-first.jpg");
+}
+
+.parallax .bg__innersecond {
+  background-image: url("../img/Neymar-Unboxing1.jpg");
+}
+
+.parallax .bg__footer {
+  background-image: url("../img/hero-footer.jpg");
+}
+/* end Parallax */
+
+
+
+.logosize {
+    max-width: 210px;
+    width: 100%;
+}
+
+.footmarg {
+padding-bottom:4em;
+}
+
+.exmarg {
+margin:5% 0 5% 0;
+}
+
+
+.extop {
+margin-top:20px;
+}
+
+#fixedBar {
+    background: #000;
+    height: 50px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+#fixedBar img {
+    margin: 12px;
+    width: 260px;
+}
+
+.bottomrow a:hover{
+	opacity: 0.7;
+	-webkit-transition: opacity .35s ease-in-out;
+    -moz-transition: opacity .35s ease-in-out;
+     -ms-transition: opacity .35s ease-in-out;
+    -o-transition: opacity .35s ease-in-out;
+    transition: opacity .35s ease-in-out;
+}
+
+.owl-carousel .slideheadline{
+	padding: 8% 0 0 0;
+	font-size: 1.1rem;
+	min-height: 74px;
+}
+
+.owl-carousel .style{
+
+}
+
+.owl-carousel .price{
+	font-weight: 700;
+}
+
+.owl-theme .owl-nav .owl-buttons div {
+  padding: 5px 9px;
+}
+ 
+.owl-theme .owl-buttons i{
+  margin-top: 2px;
+}
+
+/* .owl-prev {
+    left: 5%;
+}
+
+.owl-theme .owl-nav .owl-prev, .owl-next {
+    display: block;
+}
+.owl-theme .owl-nav .owl-next, .owl-prev {
+    background: white none repeat scroll 0 0;
+    border: 2px solid black;
+}
+.owl-theme .owl-nav .owl-next, .owl-prev {
+    background: black none repeat scroll 0 0;
+    border: 2px solid white;
+    border-radius: 100%;
+    cursor: pointer;
+    height: 50px;
+    opacity: 0.2;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transition: all 0.5s ease 0s;
+    width: 50px;
+    z-index: 2;
+}
+
+.prev-button-inner {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: black;
+    border-image: none;
+    border-style: solid;
+    border-width: 2px 0 0 2px;
+}
+
+.next-button-inner {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: black;
+    border-image: none;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    left: 12px;
+}
+.next-button-inner, .prev-button-inner {
+    cursor: pointer;
+    height: 15px;
+    left: 18px;
+    opacity: 1;
+    position: absolute;
+    top: 16px;
+    transform: rotate(-45deg);
+    width: 15px;
+    z-index: 2;
+} */
+
+/* End Custom Styles */ 

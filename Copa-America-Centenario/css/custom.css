@@ -1,0 +1,698 @@
+/* Foundation overrides */
+
+body {
+	margin: 50px 0 0 0;
+	color: #274387;
+}
+
+
+.fa {
+ color: #fff;
+ font-size: x-large;
+}
+
+.top-bar {
+ background-color: #000;
+ width: 100% !important;
+ margin-top: 0 !important;
+ padding: 0;
+ height: 50px;
+ position: fixed;
+ z-index: 999;
+ top:0;
+}
+
+.top-bar img {
+    width: 200px;
+}
+
+.top-bar ul {
+	background-color: #000;
+}
+
+.top-bar ul li {
+	font-size: 13px;
+}
+
+.top-bar a {
+    color: #fff;
+}
+
+.title-bar {
+	/position: fixed;
+	width: 100%;
+	z-index: 1000;
+}
+
+
+#fixedBar {
+    background: #000;
+    height: 54px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+#fixedBar img {
+    margin: 12px;
+    width: 260px;
+    display: inline;
+}
+
+
+
+.callout {
+	border: 0;
+	color: #274387;
+}
+
+.button {
+	background-color: #274387;
+	text-transform: uppercase;
+	font-family: "Oswald",Helvetica,Roboto,Arial,sans-serif;
+    font-weight: 400;
+}
+
+.button:focus, .button:hover {
+	background-color: #1e3366;
+}
+
+.button.large {
+    font-size: 1rem;
+}
+
+.callout.secondary {
+    background-color: #b00304;
+    margin: 0;
+    color: #fff;
+}
+
+.callout.primary {
+    background-color: #000;
+    margin: 0;
+    color: #fff;
+}
+
+img {
+	width: 100%;
+	
+}
+
+.dropdown-pane {
+	width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Oswald",Helvetica,Roboto,Arial,sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+}
+h2 {font-size:2.3rem;}
+
+/* End Foundation overrides */
+
+/* TABS */
+
+.tabs {
+	background-color: #274387;
+}
+
+.tabs-title > a:focus, .tabs-title > a[aria-selected="true"] {
+background-color:transparent;
+}
+
+.tabs, .tabs-content {
+    border: medium none;
+}
+
+.tabs-title {
+	width: 50%;
+}
+
+.tabs-title a	{border-bottom: 5px solid #274387;}
+
+.tabs-title.is-active a {border-bottom:5px solid #cc0000;}
+
+.tabs-title > a {
+	color: #f5f5f5;
+}
+
+.tabs-title > a:hover {
+background:#274387;
+text-decoration:underline;
+}
+
+
+.is-active > a {
+/* 	background-image: url('../img/whtdownarrow.png'); background-repeat:no-repeat; background-position:70% 0%; */
+
+}
+
+.tabs-title:nth-child(1){border-right:2px solid #fff;}
+
+.tabs-title > a {
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+	font-size: 24px;
+	text-align: center;
+}
+.tabs-title.is-active > a#panelCountry-label {
+	background-color: #bbb;
+}
+
+.tabs-title > a#panelCountry-label {
+	background-color: #274387;
+}
+/* .tabs-title > a:focus,  */
+
+.tabs-title.is-active > a#panelVenue-label {
+	background-color: #bbb;
+}
+
+.tabs-title > a#panelVenue-label {
+	background-color: #274387;
+}
+
+.tabs-panel {
+ padding: 0;
+ margin: 0;
+}
+
+#panelVenue {padding:3em 0 15em 0;}
+
+.callout {padding:2.5em 1em 1.5em 1em; margin-bottom:.5rem;}
+
+/* Custom Styles */ 
+
+/* Parallax */
+.parallax [class*="bg__"] {
+  position: relative;
+  height: 800px;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+.parallax .bg__foo, .parallax .bg__bazz {
+  /* height: 100vh; */
+}
+
+.parallax .bg__inner {
+  background-image: url("../img/copa-paralax-smaller.jpg");
+}
+
+/* end Parallax */
+
+
+
+.logosize {
+    max-width: 210px;
+    width: 100%;
+}
+
+.footmarg {
+padding-bottom:4em;
+}
+
+.exmarg {
+margin:5% 0 5% 0;
+}
+
+.extop {
+margin-top:20px;
+}
+
+.players p {
+	line-height: 0.4;
+	font-size: 12px;
+}
+
+.cap {
+text-transform: uppercase;
+font-family: "Oswald",Helvetica,Roboto,Arial,sans-serif;
+}
+
+#fixedBar {
+    background: #000;
+    height: 50px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+#fixedBar img {
+    margin: 12px;
+    width: 260px;
+}
+
+.bottomrow a:hover{
+	opacity: 0.7;
+	-webkit-transition: opacity .35s ease-in-out;
+    -moz-transition: opacity .35s ease-in-out;
+     -ms-transition: opacity .35s ease-in-out;
+    -o-transition: opacity .35s ease-in-out;
+    transition: opacity .35s ease-in-out;
+}
+
+.top-bar-right .menu > li:not(.menu-text) > a {padding:.7rem;}
+.top-bar-right .menu > li:not(.menu-text) > a:hover {padding:.7rem; background:#000; border-bottom:2px solid #000;}
+.menu > li:not(.menu-text) > a {padding:1.1rem; border-bottom:2px solid #000;}
+.menu > li:not(.menu-text) > a:hover {padding:1.1rem;  background:#bbb; border-bottom:2px solid #bbb;}
+
+/* 
+ul.menu li {
+	padding-bottom: 22px;
+    padding-left: 80px; 
+}
+ */
+
+ul li.usa{
+    background: url('../img/flag-usa.jpg')  no-repeat top left;
+    /* width: 62px;
+    height: 42px; */
+}
+
+ul li.colombia{
+    background: url('../img/flag-colombia.jpg')  no-repeat top left;
+    /* width: 62px;
+    height: 42px; */
+}  
+
+ul li.costarica{
+    background: url('../img/flag-costarica.jpg')  no-repeat top left;
+    /* width: 62px;
+    height: 42px; */
+}  
+
+ul li.paraguay{
+    background: url('../img/flag-paraguay.jpg')  no-repeat top left;
+    /* width: 62px;
+    height: 42px; */
+}  
+
+ul li.brazil{
+    background: url('../img/flag-brazil.jpg')  no-repeat top left;
+    /* width: 62px;
+    height: 42px; */
+}  
+
+ul li.ecuador{
+    background: url('../img/flag-ecuador.jpg')  no-repeat top left;
+    /* width: 62px;
+    height: 42px; */
+}  
+
+ul li.haiti{
+    background: url('../img/flag-haiti.jpg')  no-repeat top left;
+    /* width: 62px;
+    height: 42px; */
+}  
+
+ul li.peru{
+    background: url('../img/flag-peru.jpg')  no-repeat top left;
+    /* width: 62px;
+    height: 42px; */
+}  
+
+ul li.mexico{
+    background: url('../img/flag-mexico.jpg')  no-repeat top left;
+    /* width: 62px;
+    height: 42px; */
+}  
+
+ul li.uruguay{
+    background: url('../img/flag-uruguay.jpg')  no-repeat top left;
+    /* width: 62px;
+    height: 42px; */
+}  
+
+ul li.jamaica{
+    background: url('../img/flag-jamaica.jpg')  no-repeat top left;
+    /* width: 62px;
+    height: 42px; */
+}  
+
+ul li.venezuela{
+    background: url('../img/flag-venezuela.jpg')  no-repeat top left;
+    /* width: 62px;
+    height: 42px; */
+}  
+
+ul li.argentina{
+    background: url('../img/flag-argentina.jpg')  no-repeat top left;
+    /* width: 62px;
+    height: 42px; */
+}  
+
+ul li.chile{
+    background: url('../img/flag-chile.jpg')  no-repeat top left;
+    /* width: 62px;
+    height: 42px; */
+}  
+
+ul li.panama{
+    background: url('../img/flag-panama.jpg')  no-repeat top left;
+    /* width: 62px;
+    height: 42px; */
+}  
+
+ul li.bolivia{
+    background: url('../img/flag-bolivia.jpg')  no-repeat top left;
+    /* width: 62px;
+    height: 42px; */
+}    
+
+.groupheader {
+	color: #fff;
+	background-color: #0d214f;
+	padding: 10px;
+	margin: 0;
+}
+
+.group {
+	background-color: #ebebeb;
+	padding: 20px 30px;
+	font-size: 20px;
+}
+
+/*IMAGE OVERLAY*/
+
+.image-wrapper {
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  /* border-radius: 4px; */ }
+
+.image-overlay-content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0; }
+
+.overlay-fade-in p {
+  letter-spacing: 0.15em;
+  color: #f4f4f4;
+  font-size: 28px;
+  opacity: 0;
+  transition: all 0.2s linear; }
+.overlay-fade-in img {
+  transition: all 0.2s linear; }
+.overlay-fade-in .image-overlay-content {
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: all 0.4s ease-in-out; }
+.overlay-fade-in h2 {
+  color: #f2f2f2;
+  font-size: 2rem;
+  margin-top: 20%;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+/*   background: rgba(0, 0, 0, 0.7);  */}
+.overlay-fade-in .button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 20px;
+  background: #FFF;
+  color: #274387;
+  text-transform: uppercase;
+  box-shadow: 0 0 1px #000;
+  position: relative;
+/*   border: 1px solid #999; */
+  opacity: 0;
+  transition: all 0.2s ease-in-out; }
+  .overlay-fade-in .button:hover {
+   /*  box-shadow: 0 0 5px #000;  */}
+.overlay-fade-in:hover img {
+  transform: scale(1.2); }
+.overlay-fade-in:hover .image-overlay-content {
+  opacity: 1; }
+.overlay-fade-in:hover h2, .overlay-fade-in p, .overlay-fade-in .button {
+  opacity: 1; }
+.overlay-fade-in:hover p {
+  transition-delay: 0.1s; }
+.overlay-fade-in:hover .button {
+  transition-delay: 0.2s; }
+
+
+/*grid */
+.grid {float:left;}
+.column {padding:0 !important;}
+#copa-gear {margin-top:3rem;}
+#grid-filler {display:none;}
+#country-grid .column a img {width:75%; margin:0 auto; display:block; }
+#country-grid .column p a {color:#274387; }
+#tournament-intro {padding-bottom:1em;}
+
+/*SCHEDULE AD */
+#schedule-ad {width:100%; display:block; }
+#schedule-ad  img {max-width:1200px; margin:0 auto; display:block;}
+
+/* MAP STYLES */
+#svgMap {max-width:600px; margin:0 auto; display:block; position:relative; z-index:0;}
+#citySVG {position:relative; display:block; max-width:1000px; margin:0 auto; }
+#map {z-index:0;  width:1000px; height:650px;}
+.cities {z-index:10; position:absolute;}
+.city-box {
+cursor:pointer; 
+background:#f2f2f2; 
+border:1px solid #ebb14c; 
+box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.15);
+width: 190px;
+height: 40px;
+padding: 10px;
+font-size:14px;
+font-weight:400;
+text-transform:uppercase;
+font-family:Oswald,Helvetica,Roboto,Arial,sans-serif;
+margin:10px;
+position:absolute;
+}
+/* 
+.city-box::after {
+ content:"";
+    position:absolute;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid #ebb14c;
+    border-top: 20px solid transparent;
+    height: 0px;
+    width: 0px;
+    right:0;
+}
+ */
+.city-description {
+display:none;
+ width: 250px;
+height: 300px;
+background: #fff;
+border: 1px solid #bbb;
+margin: 0;
+float: left;
+margin: 10px 0 0 -10px;
+}
+.city-description span {margin:5px; float:right; display:block; color:#888; border:1px solid #ccc; font-size:12px; padding:1px 3px; font-weight:bold; font-family:Arial, sans-serif;}
+
+#west, #rockies, #central, #east {width:250px; float:left; display:block; height:600px;  }
+#west {/* background:rgba(244,244,244,.5); */ width:350px;}
+#rockies{/* background:rgba(220,223,222,.8); */ width:50px;}
+#central{/* background:rgba(210,210,244,.2); */ width:350px;}
+#east {/* background:rgba(233,222,211,.5); */}
+
+#seattle { z-index:10; top:10px; left:10px;  background-image: url('../img/seattle.jpg'); background-repeat:no-repeat; background-position:70% 0%; }
+#sanfrancisco{ z-index:9; top:180px; left:0; background-image: url('../img/bayarea.jpg'); background-repeat:no-repeat; background-position:70% 0%;}
+#losangeles{ z-index:8; top:300px; left:0; background-image: url('../img/pasadena.jpg'); background-repeat:no-repeat; background-position:70% 0%;}
+#phoenix{ z-index:7; top:350px; left:150px; background-image: url('../img/phoenix.jpg'); background-repeat:no-repeat; background-position:70% 0%;}
+#chicago{ z-index:6; top: 180px; left: 540px; background-image: url('../img/chicago.jpg'); background-repeat:no-repeat; background-position:70% 0%;}
+#houston{ z-index:5; top:480px; left:460px; background-image: url('../img/houston.jpg'); background-repeat:no-repeat; background-position:70% 0%;}
+#boston{ z-index:4; top:120px; left:820px; background-image: url('../img/boston.jpg'); background-repeat:no-repeat; background-position:70% 0%;}
+#nyc{ z-index:3; top:165px; left:820px; width:220px; background-image: url('../img/nyc.jpg'); background-repeat:no-repeat; background-position:97% 0%; }
+#philly{ z-index:2; top:210px; left:800px; width:220px; background-image: url('../img/philly.jpg'); background-repeat:no-repeat; background-position:80% 0%;}
+#orlando{ z-index:1; top:500px; background-image: url('../img/orlando.jpg'); background-repeat:no-repeat; background-position:70% 0%;}
+
+#seattle:after, #sanfrancisco:after, #losangeles:after, #phoenix:after, #chicago:after, #houston:after, #nyc:after, #boston:after, #philly:after, #orlando:after
+{content: '>';
+display: block;
+width: 25px;
+height: 20px;
+float: right;
+color: #ebb14c;
+font-size: 20px;
+position: absolute;
+right: -8px;
+top: 2px;
+}
+
+/*MAP SCHEDULE*/
+.stadium-matches {width:230px; margin:0 auto; display:block;}
+.match-list {display:block; margin-top:10px; border-top:1px solid #bbb;}
+.stadium-matches p {margin-bottom:0; clear:both;}
+.stadium-matches span {
+font-weight: bold;
+color: #333;
+line-height:12px;
+font-size:.9em;
+border:0;
+margin: 0;
+float: none;
+display: inline-block;
+padding: 0;
+}
+.match-teams {width:100%; margin-bottom:10px;}
+.match-teams p {text-align:center; margin:0; }
+.match-teams  .vs {color:#bbb; font-weight:normal;}
+.match-group {color:#bbb; text-align:center; margin-top:-20px; font-size:.9em;}
+.matches {margin:0; font-size:14px; }
+.match-date {display:inline-block; padding:2px 5px; background:#bbb; color:#fff; text-align:left; font-size:.9em;}
+.match-time {float:right !important; color:#274387 !important; margin-top:3px !important;}
+.city-description h3 {font-size:.9em; margin:10px 0 0 10px;}
+
+#sanfrancisco .city-description {height:350px;}
+#chicago .city-description {height:350px;}
+
+/*SCHEDULE*/
+.greyout {opacity:.35;}
+#schedule-tabs {margin-top:2em;}
+#scheduleRow {padding:2em 0;}
+.teamWrap {width:90%; display:block; margin: 0 auto; border-right:1px solid #bbb; border-left:1px solid #bbb;}
+.group {text-align:center; padding:1em 0;}
+.groupWrap {width:100%; max-width:1280px; padding:.5em 0; margin:0 auto; display:block; }
+.groups { float:left;  }
+.teamWrap:nth-child(even) {background:#f5f5f5;}
+.groups h3, .matchLocation, .country, .details, .venue, .stadium, .matchtime {width:100%; margin:5px 0; display:block; }
+/* .country:nth-child(odd) {background:#fff;} */
+.country {background:#f5f5f5; padding:10px 0; height:55px; margin-top:1em; border-bottom:2px solid; border-top:1px solid #bbb;}
+.country h2 {font-size:24px; float:left;  padding-left:10px;}
+.country img {width:30px; height:30px; float:right; width:50px; padding-right:10px; }
+.groups h3 {width:80px; float:left; background:#bbb; display:block; font-size:16px; color:#fff; text-align:center; margin-top:10px;}
+.matchLocation {float:left; clear:left; height:25px;}
+.matchLocation p {text-align:center; margin:0;}
+.hometeam, .awayteam {font-weight:bold; font-size:1em; color:#333;}
+.matchLocation .vs {color:#bbb;  }
+.details {clear:left; text-align:center; width:100%; margin:0 auto; border-bottom:1px solid #bbb; padding-bottom:10px;}
+ .venue {font-size:13px; font-weight:bold; color:#7e7e7e; margin:0; line-height:18px;}
+ .stadium {font-size:13px; font-weight:normal; color:#7e7e7e; margin:0; line-height:14px;}
+.matchtime {font-size:14px; font-weight:normal; margin:5px; 0}
+#finalstxt {
+width:100%;
+ font-size:1em; 
+ background:#fff; 
+ color:#274387; 
+ padding:2px;
+ display:block;
+ margin:0 auto;
+
+}
+
+/* MOBILE STYLES */
+.accordion-content h3 {font-size:1em;}
+.accordion-content .stadium-matches {width:100%;}
+.accordion-content .match-date {color:#fff; font-family:'Oswald', Helvetica, sans-serif;}
+.accordion-content .match-group {color:#bbb; text-transform:uppercase; font-family:'Oswald', Helvetica, sans-serif; }
+
+#mobileMap {display:none;}
+#mobileMap .accordion li {
+background:#f2f2f2;
+ border-top:1px solid #ebb14c; 
+ }
+#mobileMap .accordion .seattle {background-image: url('../img/seattle.jpg'); background-repeat:no-repeat; background-position:70% 50%; }
+#mobileMap .accordion .sanfrancisco {background-image: url('../img/bayarea.jpg'); background-repeat:no-repeat; background-position:70% 50%; }
+#mobileMap .accordion .losangeles {background-image: url('../img/pasadena.jpg'); background-repeat:no-repeat; background-position:70% 50%; }
+#mobileMap .accordion .phoenix {background-image: url('../img/phoenix.jpg'); background-repeat:no-repeat; background-position:70% 50%; }
+#mobileMap .accordion .chicago {background-image: url('../img/chicago.jpg'); background-repeat:no-repeat; background-position:70% 50%; }
+#mobileMap .accordion .houston {background-image: url('../img/houston.jpg'); background-repeat:no-repeat; background-position:70% 50%; }
+#mobileMap .accordion .boston {background-image: url('../img/boston.jpg'); background-repeat:no-repeat; background-position:70% 50%; } 
+#mobileMap .accordion .nyc {background-image: url('../img/nyc.jpg'); background-repeat:no-repeat; background-position:70% 50%;  }
+#mobileMap .accordion .philly  {background-image: url('../img/philly.jpg'); background-repeat:no-repeat; background-position:70% 50%; }
+#mobileMap .accordion .orlando {background-image: url('../img/orlando.jpg'); background-repeat:no-repeat; background-position:70% 50%; }
+/* #mobileMap .accordion .is-active {background-position:70% 0% !important;} */
+.accordion-content {background:#fff;}
+.accordion-title {
+font-size:1rem;
+font-weight:400;
+text-transform:uppercase;
+color:#274387;
+font-family:Oswald,Helvetica,Roboto,Arial,sans-serif; 
+}
+/* 
+.is-active {
+-webkit-box-shadow: 0px 3px 4px 0px rgba(130,130,130,1);
+-moz-box-shadow: 0px 3px 4px 0px rgba(130,130,130,1);
+box-shadow: 0px 3px 4px 0px rgba(130,130,130,1);
+}
+ */
+.is-active > .accordion-title::before {
+    content: '';
+    display:block;
+    width:1em;
+    height:1em;
+   background-image: url('../img/open.jpg'); 
+}
+.accordion-title::before {
+    content: '';
+    display:block;
+    width:1em;
+    height:1em;
+   background-image: url('../img/closed.jpg'); 
+}
+.accordion-title:focus, .accordion-title:hover {background:#f2f2f2;}
+.accordion-item p {color:#3c3c3c; }
+
+
+/* Small only */
+@media screen and (max-width: 39.9375em) {
+#citySVG {display:none;}
+#mobileMap {display:block;}
+body {margin:0;}
+.top-bar {top:40px;}
+}
+/* END Small only */
+
+/* Medium and up */
+@media screen and (min-width: 40em) {
+}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+#map {z-index:0; width:620px; height:500px;}
+#citySVG {position:relative; display:block; max-width:740px; margin:0; padding-left:2em; }
+#west, #central, #east {width:250px; float:left; display:block; height:600px;  }
+#rockies {width:0;}
+#sanfrancisco {top:100px;}
+#losangeles {top:170px;}
+#phoenix {top:220px; left:100px;}
+#houston {top:270px; left:200px;}
+#chicago {top:100px; left:230px;}
+#boston {top:60px; left:460px;}
+#nyc {top:100px; left:460px;}
+#philly {top:140px; left:460px;}
+#orlando {top:280px; left:440px;}
+.menu > li:not(.menu-text) > a {padding:1.1rem .5rem;}
+.menu > li:not(.menu-text) > a:hover {padding:1.1rem .5rem;}
+#grid-filler {display:block;}
+}
+
+/* Large and up */
+@media screen and (min-width: 64em) {
+
+}
+
+/* Large only */
+@media screen and (min-width: 64em) and (max-width: 74.9375em) {
+#citySVG {position:relative; display:block; max-width:1000px; margin:0 auto; }
+}
+
+/* End Custom Styles */ 

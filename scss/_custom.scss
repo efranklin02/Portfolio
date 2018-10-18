@@ -1,0 +1,148 @@
+// Custom Styles
+
+@font-face {
+    font-family: 'encode_sans_condensedlight';
+    src: url('../fonts/encodesanscondensed-300-light-webfont.eot');
+    src: url('../fonts/encodesanscondensed-300-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/encodesanscondensed-300-light-webfont.woff') format('woff'),
+         url('../fonts/encodesanscondensed-300-light-webfont.ttf') format('truetype'),
+         url('../fonts/encodesanscondensed-300-light-webfont.svg#encode_sans_condensedlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'encode_sans_condensedregular';
+    src: url('../fonts/encodesanscondensed-400-regular-webfont.eot');
+    src: url('../fonts/encodesanscondensed-400-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/encodesanscondensed-400-regular-webfont.woff') format('woff'),
+         url('../fonts/encodesanscondensed-400-regular-webfont.ttf') format('truetype'),
+         url('../fonts/encodesanscondensed-400-regular-webfont.svg#encode_sans_condensedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'encode_sans_condensedmedium';
+    src: url('../fonts/encodesanscondensed-500-medium-webfont.eot');
+    src: url('../fonts/encodesanscondensed-500-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/encodesanscondensed-500-medium-webfont.woff') format('woff'),
+         url('../fonts/encodesanscondensed-500-medium-webfont.ttf') format('truetype'),
+         url('../fonts/encodesanscondensed-500-medium-webfont.svg#encode_sans_condensedmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'encode_sans_condensedsemibold';
+    src: url('../fonts/encodesanscondensed-600-semibold-webfont.eot');
+    src: url('../fonts/encodesanscondensed-600-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/encodesanscondensed-600-semibold-webfont.woff') format('woff'),
+         url('../fonts/encodesanscondensed-600-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/encodesanscondensed-600-semibold-webfont.svg#encode_sans_condensedsemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'encode_sans_condensedbold';
+    src: url('../fonts/encodesanscondensed-700-bold-webfont.eot');
+    src: url('../fonts/encodesanscondensed-700-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/encodesanscondensed-700-bold-webfont.woff') format('woff'),
+         url('../fonts/encodesanscondensed-700-bold-webfont.ttf') format('truetype'),
+         url('../fonts/encodesanscondensed-700-bold-webfont.svg#encode_sans_condensedbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+hr{text-align:center;margin:0 auto;opacity:0.5;}
+ul{text-transform:uppercase;}
+ul.inline-list.right{text-transform:none;}
+ul.inline-list.right a{color:#000;}
+ul.inline-list.right a:hover{color:rgba(0,0,0,0.5);}
+.columns.large-centered{padding-left:5px;padding-right:5px;}
+@media only screen and (max-width: 40em) {.columns.large-centered{font-size:13px;}}@media only screen and (min-width: 40.063em) {.columns.large-centered{font-size:14px;}}
+.about-box{color:#fff;}
+.black-box{background-color:rgba(0,0,0,0.55);padding:35px;font-weight:900;}
+.black-box p{font-weight:900;}
+.secondary.small.button{background-color:transparent;color:#fff;border:2px #fff solid;border-radius:5px;padding:15px 50px 15px 50px;margin:0;}
+.secondary.small.button:hover{background-color:rgba(255,255,255,0.5);}
+.row .main-wrapper{color:#fff;}
+.about-content{background-color:#fff;box-shadow:2px 2px 10px rgba(0,0,0,0.1);}
+.button-group li .button{border:0!important;}
+.button{-webkit-appearance:none;background-color:transparent;border-width:0;text-align:center;box-shadow:0 0 0;}
+.button:hover{color:rgba(255,255,255,0.7);background-color:transparent;}footer p,footer a{font-size:14px;}
+
+.hero{padding-bottom:29%;background-image:url("../images/wavecrashWide.jpg");background-size:cover;/*box-shadow:inset 0px 0px 0 2000px rgba(0,0,0,0.2);*/}
+.hero-second{padding-bottom:29%;background-image:url("../images/desertWide.jpg");background-size:cover;}
+.hero-third{padding-bottom:29%;background-image:url("../images/antiguaWide.jpg");background-size:cover;}
+.hero-contact{padding-bottom:29%;background-image:url("../images/sunsetWide.jpg");background-size:cover;box-shadow:inset 0px 0px 0 2000px rgba(0,0,0,0.2);}
+.hero-content{padding-top:40px;padding-bottom:40px;background-color:#EAEAEA;}
+
+.panel{margin:40px 0 40px 0;box-shadow:2px 2px 10px rgba(0,0,0,0.2);border:none;background-color:#EAEAEA;}
+.large-4 img{box-shadow:2px 2px 10px rgba(0,0,0,0.1);}
+.radius.right.button{color:#000;border:2px #000 solid;border-radius:5px;padding:15px 50px 15px 50px;margin:0;font-size:0.8125em;}
+@media only screen and (min-width: 64.063em) {.radius.right.button{color:#000;border:2px #000 solid;border-radius:5px;padding:15px 50px 15px 50px;margin-top:25px;font-size:0.8125em;}}@media only screen and (min-width: 40.063em) {.radius.right.button{color:#000;border:2px #000 solid;border-radius:5px;padding:15px 50px 15px 50px;margin-top:25px;font-size:0.8125em;}}.radius.right.button:hover{background-color:rgba(0,0,0,0.1);}
+
+.text-shadow {
+ @include single-text-shadow;
+}
+
+header h2 {
+text-transform: uppercase;
+}
+
+.wrap {  
+width:100%;
+padding-bottom: 25%; 
+background: url("../images/wavecrashWide.jpg") no-repeat #000;
+background-size:cover;
+background-position:center;  
+}
+
+.skillswrap {
+width:100%;
+padding-bottom: 25%;
+background: url("../images/desertWide.jpg") no-repeat #000;
+background-size:cover;
+background-position:center; 
+}
+
+
+.expwrap {
+width:100%;
+padding-bottom: 25%;
+background: url("../images/antiguaWide.jpg") no-repeat #000;
+background-size:cover;
+background-position:center;  
+}
+
+.contactwrap {
+width:100%;
+padding-bottom: 25%;
+background: url("../images/spaceWide.jpg") no-repeat #000;
+background-size:cover;
+background-position:center; 
+}
+
+
+.name {
+margin-top: 20%;
+}
+
+.testimonialwrap {
+	background: rgb(0, 0, 0); /* The Fallback */
+    background: rgba(231, 76, 60, 0.7); 
+}
+
+.testimonial {
+	background: none;
+    padding: 7% 0 7%;
+    position: relative;
+    color: #fff;
+}
+
+.testimonial p {
+    font-size: 1.2em;
+}

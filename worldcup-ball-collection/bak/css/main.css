@@ -1,0 +1,823 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #fff;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+    background-color: #000;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+    max-width:100%;
+    height:auto;
+}
+
+iframe,
+embed,
+object {
+max-width: 100%;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font: 16px/26px "Forza", Helvetica, Helvetica Neue, Arial;
+}
+
+.wrapper {
+    width: 95%;
+    margin: 0 5%;
+}
+
+.header-container,
+ .footer-container {
+    background: #000;
+}
+
+/* .footer-container,
+.main aside {
+    border-top: 20px solid #e44d26;
+} */
+
+.main-container{
+    background: #272727;
+    padding-top:25px;
+}
+
+.title {
+    color: white;
+}
+
+
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 30px 0;
+}
+
+.main article h1 {
+    font-size: .9em;
+}
+
+
+.footer-container footer {
+    color: white;
+    padding: 20px 0;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+ 
+a:link, a:visited, a:active {
+	color: #fff;
+	text-decoration: none;
+}
+
+   
+.lastfooter {
+width:80px;
+display:inline-block;
+vertical-align: top;
+zoom: 1;
+*display: inline;
+}
+
+.ballnav {
+display:inline-block;
+position:relative;
+vertical-align: top;
+zoom: 1;
+*display: inline;
+}
+
+.lastballnav {
+width:239px;
+display:inline-block;
+vertical-align: top;
+zoom: 1;
+*display: inline;
+}
+
+.balltext {
+position:absolute;
+top: 175px;
+left:auto;
+right: 0;
+padding-right:5px;
+}
+
+.skfix {
+left:10px;
+}
+
+
+.main section p span a{
+display:block;
+text-align:right;
+color: #fff;
+text-decoration:none;
+font-weight:bold;
+font-size: 1.1em;
+padding-top:10px;
+}
+
+.soccerlogo {
+width:80%;
+padding: 20px 0 20px 0;
+}
+
+.soccerlogo span a{
+margin-left:10px;
+font-size: 0.75em;
+vertical-align:bottom;
+}
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 300px) {
+
+
+.main section p {
+	background-color: #000;
+	font-size: 0.8em;
+	padding: 1em 2em 0.6em;
+	margin: 0;
+}
+
+.main section h2 {
+margin:0;
+padding:30px 0 0;
+}
+
+
+ section {
+    width: 84%;
+    }
+    
+.main section img {
+    background-color: #000;
+    }
+
+.video-container480 {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container480 iframe,
+.video-container480 object,
+.video-container480 embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-header h1 {
+font-size:1em;
+line-height:20px;
+text-align:center;
+display:block;
+color:#fff;
+}
+
+header .middlevideo768 {
+display:none;
+}
+
+header .middlevideo768 h1 {
+display:none;
+}
+
+header .middlevideo {
+display:none;
+}
+
+header .middlevideo h1 {
+display:none;
+}
+
+
+}
+
+
+
+@media only screen and (min-width: 480px) {
+
+
+.main section p {
+	background-color: #000;
+	font-size: 0.8em;
+	padding: 1em 2em 0.6em;
+	margin: 0;
+}
+
+.main section h2 {
+margin:0;
+padding:30px 0 0;
+}
+
+
+ section {
+    width: 84%;
+    }
+    
+.main section img {
+    background-color: #000;
+    }
+    
+.video-container480 {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container480 iframe,
+.video-container480 object,
+.video-container480 embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-header h1 {
+font-size:1em;
+line-height:20px;
+text-align:center;
+display:block;
+color:#fff;
+}
+
+
+header .middlevideo768 {
+display:none;
+}
+
+header .middlevideo768 h1 {
+display:none;
+}
+
+header .middlevideo {
+display:none;
+}
+
+header .middlevideo h1 {
+display:none;
+}
+
+}
+
+@media only screen and (min-width: 568px) {
+
+
+.main section p {
+	background-color: #000;
+	font-size: 0.8em;
+	padding: 1em 2em 0.6em;
+	margin: 0;
+}
+
+.main section h2 {
+margin:0;
+padding:30px 0 0;
+}
+
+
+ section {
+    width: 84%;
+    }
+    
+.main section img {
+    background-color: #000;
+    }
+    
+header .middlevideo768 {
+display:inline-block;
+position:relative;
+}
+
+header .middlevideo768 h1 {
+font-size:1em;
+position: absolute;
+left:25%;
+top:340px;
+line-height:20px;
+text-align:center;
+display:inline;
+}
+
+.video-header h1 {
+display:none;
+}
+
+header .middlevideo {
+display:none;
+}
+
+header .middlevideo h1 {
+display:none;
+}
+
+.video-container480 {
+    display:none;
+}
+
+}
+
+
+
+@media only screen and (min-width: 640px) {
+
+
+.main section p {
+	background-color: #000;
+	font-size: 0.8em;
+	padding: 1em 2em 0.6em;
+	margin: 0;
+}
+
+.main section h2 {
+margin:0;
+padding:30px 0 0;
+}
+
+
+ section {
+    width: 84%;
+    }
+    
+.main section img {
+    background-color: #000;
+    }
+    
+header .middlevideo768 {
+display:inline-block;
+position:relative;
+}
+
+header .middlevideo768 h1 {
+font-size:1em;
+position: absolute;
+left:25%;
+top:340px;
+line-height:20px;
+text-align:center;
+display:inline;
+}
+
+.video-header h1 {
+display:none;
+}
+
+header .middlevideo {
+display:none;
+}
+
+header .middlevideo h1 {
+display:none;
+}
+
+.video-container480 {
+    display:none;
+}
+
+}
+
+
+@media only screen and (min-width: 768px) {
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    .title {
+        float: left;
+    }
+
+
+/* ============
+    WIDE: Main
+   ============ */
+
+    .main article {
+        width: 100%;
+    }
+    
+    .section-container {
+    height:600px;
+    }
+    
+    section {
+    float:left;
+    position:relative;
+    width: 46%;
+    padding-right: 4%;
+    }
+    
+    .main section img {
+    	float:left;
+    	margin: 0;
+    }
+    
+.main section p {
+	background-color: #000;
+	font-size: 0.750em;
+	margin: 1em 0;
+	padding: 1em 2em 0.6em;
+display:block;
+}
+
+.main section h2 {
+display:inline;
+margin:0;
+padding:0;
+}
+
+header .middlevideo768 {
+display:inline-block;
+position:relative;
+}
+
+header .middlevideo768 h1 {
+font-size:1em;
+position: absolute;
+left:25%;
+top:340px;
+line-height:20px;
+text-align:center;
+display:inline;
+}
+
+.video-header h1 {
+display:none;
+}
+
+header .middlevideo {
+display:none;
+}
+
+header .middlevideo h1 {
+display:none;
+}
+
+.video-container480 {
+    display:none;
+}
+    
+   
+}
+
+
+@media only screen and (min-width: 1024px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+   
+   .main article {
+        width: 95%;
+    }
+   
+
+    .wrapper {
+        width: 1040px; /* 1024px - 10% for margins */
+        margin: 0 auto;
+    }
+    
+    
+.main section img {
+    	float:left;
+    	margin: -30px 25px 0 0;
+    	background-color: transparent;
+    }
+    
+.main section p {
+	background-color: #000;
+	font-size: 0.750em;
+	line-height: 21px;
+	margin: 1em 0;
+	padding: 1em 4em 0 0;
+	height: 220px;
+}
+
+.main section h2 {
+display:block;
+margin:0;
+padding:0;
+text-align:right;
+}
+
+section {
+width: 100%;
+clear:both;
+}
+
+header .middlevideo {
+display:inline-block;
+position:relative;
+}
+
+header .middlevideo h1 {
+font-size:1em;
+position: absolute;
+left:25%;
+top:145px;
+line-height:20px;
+text-align:center;
+display:block;
+}
+
+.video-header h1 {
+display:none;
+}
+
+header .middlevideo768 {
+display:none;
+}
+
+header .middlevideo768 h1 {
+display:none;
+}
+
+.video-container480 {
+    display:none;
+}
+
+
+}
+
+
+
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+    .wrapper {
+        width: 1040px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+    
+    
+.main section img {
+    	float:left;
+    	margin: -30px 25px 0 0;
+    	background-color: transparent;
+    }
+    
+.main section p {
+	background-color: #000;
+	font-size: 0.750em;
+	line-height: 21px;
+	margin: 1em 0;
+	padding: 1em 4em 0 0;
+	height: 220px;
+}
+
+.main section h2 {
+display:block;
+margin:0;
+padding:0;
+text-align:right;
+}
+
+section {
+width: 100%;
+clear:both;
+}
+
+header .middlevideo {
+display:inline-block;
+position:relative;
+}
+
+header .middlevideo h1 {
+font-size:1em;
+position: absolute;
+left:25%;
+top:145px;
+line-height:20px;
+text-align:center;
+display:block;
+}
+
+.video-header h1 {
+display:none;
+}
+
+header .middlevideo768 {
+display:none;
+}
+
+header .middlevideo768 h1 {
+display:none;
+}
+
+.video-container480 {
+    display:none;
+}
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

@@ -1,0 +1,2280 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?2ctyz3");
+  src: url("../fonts/icomoon.eot?2ctyz3#iefix") format("embedded-opentype"), url("../fonts/icomoon.ttf?2ctyz3") format("truetype"), url("../fonts/icomoon.woff?2ctyz3") format("woff"), url("../fonts/icomoon.svg?2ctyz3#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "adineue_proregular";
+  src: url("../fonts/adineuepro-regular-webfont.eot");
+  src: url("../fonts/adineuepro-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/adineuepro-regular-webfont.woff") format("woff"), url("../fonts/adineuepro-regular-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "adineue_pro_blackregular";
+  src: url("../fonts/adineuepro-black-webfont.eot");
+  src: url("../fonts/adineuepro-black-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/adineuepro-black-webfont.woff") format("woff"), url("../fonts/adineuepro-black-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "adineue_pro_boldregular";
+  src: url("../fonts/adineuepro-bold-webfont.eot");
+  src: url("../fonts/adineuepro-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/adineuepro-bold-webfont.woff") format("woff"), url("../fonts/adineuepro-bold-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "adineue_pro_lightregular";
+  src: url("../fonts/adineuepro-light-webfont.eot");
+  src: url("../fonts/adineuepro-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/adineuepro-light-webfont.woff") format("woff"), url("../fonts/adineuepro-light-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "adihaus_din_regular";
+  src: url("../fonts/adihausdin-Regular.eot");
+  src: url("../fonts/adihausdin-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/adihausdin-Regular.woff") format("woff"), url("../fonts/adihausdin-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "adihaus_din_medium";
+  src: url("../fonts/adihausdin-Medium.eot");
+  src: url("../fonts/adihausdin-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/adihausdin-Medium.woff") format("woff"), url("../fonts/adihausdin-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "adihaus_din_bold";
+  src: url("../fonts/adihausdin-Bold.eot");
+  src: url("../fonts/adihausdin-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/adihausdin-Bold.woff") format("woff"), url("../fonts/adihausdin-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "adineue_proregular";
+  src: url("../fonts/adineuePROCyr-RegularWeb.eot");
+  src: url("../fonts/adineuePRO-RegularWeb.eot?#iefix") format("embedded-opentype");
+  src: url("../fonts/adineuePROCyr-RegularWeb.woff") format("woff");
+  src: url("../fonts/adineuePROCyr-RegularWeb.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "adineue_pro_blackregular";
+  src: url("../fonts/adineuePROCyr-BlackWeb.eot");
+  src: url("../fonts/adineuePROCyr-BlackWeb.eot?#iefix") format("embedded-opentype"), url("../fonts/adineuePROCyr-BlackWeb.woff") format("woff"), url("../fonts/adineuePROCyr-BlackWeb.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "adineue_pro_boldregular";
+  src: url("../fonts/adineuePROCyr-BoldWeb.eot");
+  src: url("../fonts/adineuePROCyr-BoldWeb.eot?#iefix") format("embedded-opentype"), url("../fonts/adineuePROCyr-BoldWeb.woff") format("woff"), url("../fonts/adineuePROCyr-BoldWeb.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "adineue_pro_lightregular";
+  src: url("../fonts/adineuePROCyr-LightWeb.eot");
+  src: url("../fonts/adineuePROCyr-LightWeb.eot?#iefix") format("embedded-opentype"), url("../fonts/adineuePROCyr-LightWeb.woff") format("woff"), url("../fonts/adineuePROCyr-LightWeb.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 6, ../../../../../_sass/scss/desktop/ace16/static/css/main.scss */
+.maintenance-block {
+  display: none;
+}
+
+/* line 8, ../../../../../_sass/scss/desktop/ace16/static/css/main.scss */
+#ace16-application {
+  /* ---------------------------------------------------------------------------------------
+   *
+   *  VARIABLES
+   *
+   * ---------------------------------------------------------------------------------------- */
+  /* ----------------------------------------------------------------------------------------
+   *
+   *  Core: Typography
+   *
+   * ---------------------------------------------------------------------------------------- */
+  /* ---------------------------------------------------------------------------------------
+   *
+   *  LAYOUT STYLES (such as grids)
+   *  This file contains layout related styles. The goal is to try to avoid styles that
+   *  are document-, base- or layout-related, and use modules instead.
+   *
+   *  https://speakerdeck.com/andyhume/css-for-grown-ups-maturing-best-practises-sxsw-2012
+   *
+   * ---------------------------------------------------------------------------------------- */
+  /* Import all modules below this line */
+  /* ----------------------------------------------------------------------------------------
+   *
+   *  Module: Icons
+   *
+   * ---------------------------------------------------------------------------------------- */
+  /* ----------------------------------------------------------------------------------------
+   *
+   *  Link farm button
+   *
+   * ---------------------------------------------------------------------------------------- */
+  /* ----------------------------------------------------------------------------------------
+   *
+   *  Play button
+   *
+   * ---------------------------------------------------------------------------------------- */
+  /* ----------------------------------------------------------------------------------------
+   *
+   *  Play button small
+   *
+   * ---------------------------------------------------------------------------------------- */
+  /* ----------------------------------------------------------------------------------------
+   *
+   *  Close button
+   *
+   * ---------------------------------------------------------------------------------------- */
+}
+/* line 26, ../../../../../_sass/scss/desktop/ace16/static/css/_helpers.scss */
+#ace16-application .ir {
+  display: block;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+}
+/* line 33, ../../../../../_sass/scss/desktop/ace16/static/css/_helpers.scss */
+#ace16-application .font-feature-settings--normal {
+  -moz-font-feature-settings: normal;
+  -moz-font-feature-settings: normal;
+  -ms-font-feature-settings: normal;
+  -o-font-feature-settings: normal;
+  -webkit-font-feature-settings: normal;
+  font-feature-settings: normal;
+}
+/* line 1, ../../../../../_sass/scss/desktop/ace16/static/css/_document.scss */
+#ace16-application * {
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */
+}
+/* line 7, ../../../../../_sass/scss/desktop/ace16/static/css/_document.scss */
+#ace16-application .ir {
+  display: block;
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+}
+/* line 2, ../../../../../_sass/scss/desktop/ace16/static/css/_base.scss */
+#ace16-application .figure {
+  margin: 0;
+  padding: 0;
+}
+/* line 8, ../../../../../_sass/scss/desktop/ace16/static/css/_base.scss */
+#ace16-application .h1 {
+  margin: 0;
+  font-family: "adineue_pro_boldregular";
+  font-size: 3em;
+}
+/* line 14, ../../../../../_sass/scss/desktop/ace16/static/css/_base.scss */
+#ace16-application .h2 {
+  margin: 0;
+  font-family: "adineue_pro_boldregular";
+  font-size: 2.3em;
+}
+/* line 20, ../../../../../_sass/scss/desktop/ace16/static/css/_base.scss */
+#ace16-application .h3 {
+  margin: 0;
+  font-family: "adineue_pro_boldregular";
+  font-size: 2.1em;
+}
+/* line 26, ../../../../../_sass/scss/desktop/ace16/static/css/_base.scss */
+#ace16-application .h4 {
+  margin: 0;
+  font-family: "adineue_pro_boldregular";
+  font-size: 1.8em;
+}
+/* line 32, ../../../../../_sass/scss/desktop/ace16/static/css/_base.scss */
+#ace16-application .h5 {
+  margin: 0;
+  font-family: "adineue_pro_boldregular";
+  font-size: 1.3em;
+}
+/* line 38, ../../../../../_sass/scss/desktop/ace16/static/css/_base.scss */
+#ace16-application .p {
+  margin: 0;
+  padding: 0;
+  font-family: "adineue_pro_lightregular";
+}
+/* line 45, ../../../../../_sass/scss/desktop/ace16/static/css/_base.scss */
+#ace16-application img {
+  border: none;
+}
+/* line 7, ../../../../../_sass/scss/desktop/ace16/static/css/_typography.scss */
+#ace16-application b,
+#ace16-application strong {
+  font-weight: normal;
+  font-family: 'adineue_pro_boldregular';
+}
+/* line 13, ../../../../../_sass/scss/desktop/ace16/static/css/_typography.scss */
+#ace16-application .h1 {
+  font-size: 60px;
+  letter-spacing: 23px;
+  font-family: 'adineue_pro_blackregular';
+  text-transform: uppercase;
+  line-height: normal;
+  color: #FFFFFF;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -khtml-font-smoothing: antialiased;
+  -apple-font-smoothing: antialiased;
+  font-smooth: always;
+}
+/* line 23, ../../../../../_sass/scss/desktop/ace16/static/css/_typography.scss */
+#ace16-application .h2 {
+  font-size: 32px;
+  font-family: 'adineue_pro_blackregular';
+  text-transform: uppercase;
+  color: #FFFFFF;
+  letter-spacing: 2px;
+  line-height: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -khtml-font-smoothing: antialiased;
+  -apple-font-smoothing: antialiased;
+  font-smooth: always;
+}
+/* line 33, ../../../../../_sass/scss/desktop/ace16/static/css/_typography.scss */
+#ace16-application .h2--large {
+  font-size: 57px;
+}
+/* line 37, ../../../../../_sass/scss/desktop/ace16/static/css/_typography.scss */
+#ace16-application .h2--medium {
+  font-size: 40px;
+}
+/* line 41, ../../../../../_sass/scss/desktop/ace16/static/css/_typography.scss */
+#ace16-application .h3 {
+  margin-bottom: 9px;
+  font-size: 32px;
+  letter-spacing: 6.3px;
+  font-family: 'adineue_pro_blackregular';
+  text-transform: uppercase;
+  color: #FFFFFF;
+  line-height: normal;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -khtml-font-smoothing: antialiased;
+  -apple-font-smoothing: antialiased;
+  font-smooth: always;
+}
+/* line 53, ../../../../../_sass/scss/desktop/ace16/static/css/_typography.scss */
+#ace16-application .subtitle {
+  font-size: 24px;
+  font-family: 'adineue_proregular';
+  color: #FFFFFF;
+  line-height: normal;
+  text-transform: uppercase;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -khtml-font-smoothing: antialiased;
+  -apple-font-smoothing: antialiased;
+  font-smooth: always;
+}
+/* line 61, ../../../../../_sass/scss/desktop/ace16/static/css/_typography.scss */
+#ace16-application .subtitle b,
+#ace16-application .subtitle strong {
+  font-weight: normal;
+  font-family: 'adineue_pro_blackregular';
+}
+/* line 68, ../../../../../_sass/scss/desktop/ace16/static/css/_typography.scss */
+#ace16-application .p {
+  font-size: 22px;
+  font-family: 'adihaus_din_regular';
+  color: #FFFFFF;
+  line-height: 29px;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -khtml-font-smoothing: antialiased;
+  -apple-font-smoothing: antialiased;
+  font-smooth: always;
+}
+/* line 81, ../../../../../_sass/scss/desktop/ace16/static/css/_typography.scss */
+#ace16-application .p--uppercase {
+  text-transform: uppercase;
+}
+/* line 85, ../../../../../_sass/scss/desktop/ace16/static/css/_typography.scss */
+#ace16-application .label {
+  font-size: 14px;
+  font-family: 'adihaus_din_medium';
+  text-transform: uppercase;
+  color: #FFFFFF;
+  line-height: normal;
+  white-space: nowrap;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -khtml-font-smoothing: antialiased;
+  -apple-font-smoothing: antialiased;
+  font-smooth: always;
+}
+/* line 11, ../../../../../_sass/scss/desktop/ace16/static/css/_layout.scss */
+#ace16-application.ace16-application {
+  position: relative;
+  width: 100%;
+  background-color: #00963d;
+}
+/* line 22, ../../../../../_sass/scss/desktop/ace16/static/css/_layout.scss */
+#ace16-application.no-js .js-needed {
+  display: none;
+}
+/* line 26, ../../../../../_sass/scss/desktop/ace16/static/css/_layout.scss */
+#ace16-application .main {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+/* line 34, ../../../../../_sass/scss/desktop/ace16/static/css/_layout.scss */
+#ace16-application.no-js .main {
+  position: relative;
+  height: auto;
+}
+/* line 39, ../../../../../_sass/scss/desktop/ace16/static/css/_layout.scss */
+#ace16-application.is-tablet .main {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: auto;
+}
+/* line 47, ../../../../../_sass/scss/desktop/ace16/static/css/_layout.scss */
+#ace16-application .main-scroll {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  min-width: 700px;
+  overflow: hidden;
+}
+/* line 59, ../../../../../_sass/scss/desktop/ace16/static/css/_layout.scss */
+#ace16-application.no-js .main-scroll {
+  position: relative;
+  height: auto;
+}
+/* line 7, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_icons.scss */
+#ace16-application [class^="icon-"], #ace16-application [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  display: inline-block;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* line 24, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_icons.scss */
+#ace16-application .icon-ace-arrow:before {
+  content: "b";
+}
+/* line 27, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_icons.scss */
+#ace16-application .icon-pause:before {
+  content: "a";
+}
+/* line 30, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_icons.scss */
+#ace16-application .icon-arrow-down:before {
+  content: "c";
+}
+/* line 33, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_icons.scss */
+#ace16-application .icon-cross:before {
+  content: "d";
+}
+/* line 36, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_icons.scss */
+#ace16-application .icon-play:before {
+  content: "e";
+}
+/* line 1, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_list.scss */
+#ace16-application .list {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 8, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_list.scss */
+#ace16-application .list--horizontal {
+  font-size: 0;
+}
+/* line 12, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_list.scss */
+#ace16-application .list-item {
+  display: block;
+  line-height: normal;
+}
+/* line 17, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_list.scss */
+#ace16-application .list-item--horizontal {
+  display: inline-block;
+}
+/* line 1, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_button.scss */
+#ace16-application .button {
+  overflow: visible;
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  text-decoration: underline;
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  letter-spacing: 0;
+}
+/* line 13, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_button.scss */
+#ace16-application .button:hover {
+  text-decoration: underline;
+}
+/* line 17, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_button.scss */
+#ace16-application .button:focus {
+  outline: none;
+}
+/* line 22, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_button.scss */
+#ace16-application .button-regular {
+  position: relative;
+  display: inline-block;
+  height: 50px;
+  width: auto;
+  min-width: 248px;
+  max-width: 334px;
+  overflow: hidden;
+  font-family: "adineue_proregular";
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 50px;
+  letter-spacing: 0px;
+  white-space: nowrap;
+}
+/* line 40, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_button.scss */
+#ace16-application .button-regular:hover {
+  text-decoration: none;
+}
+/* line 45, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_button.scss */
+#ace16-application .button-regular__text {
+  display: block;
+  position: relative;
+  padding: 0 17px;
+}
+/* line 51, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_button.scss */
+#ace16-application .button-regular__background {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0;
+  border-bottom: 300px solid #d51a74;
+  border-left: 200px solid transparent;
+  border-right: 200px solid transparent;
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+/* line 65, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_button.scss */
+#ace16-application .button-regular--bold {
+  font-family: 'adineue_pro_boldregular';
+}
+/* line 75, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_button.scss */
+#ace16-application .button-link-farm {
+  display: inline-block;
+  width: 220px;
+  font-family: "adineue_proregular";
+  font-size: 14px;
+  text-transform: capitalize;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  color: #666666;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -khtml-font-smoothing: antialiased;
+  -apple-font-smoothing: antialiased;
+  font-smooth: always;
+}
+/* line 86, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_button.scss */
+#ace16-application .button-link-farm:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+/* line 91, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_button.scss */
+#ace16-application .button-link-farm:active {
+  color: #2e2e2e;
+  text-decoration: none;
+}
+/* line 98, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_button.scss */
+#ace16-application .button-link-farm--bottom {
+  margin: 0 10px;
+  padding-top: 21px;
+  border-top: 1px solid #2e2e2e;
+  vertical-align: top;
+}
+/* line 112, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_button.scss */
+#ace16-application .button-video {
+  width: 120px;
+  height: 120px;
+  background-color: black;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+/* line 121, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_button.scss */
+#ace16-application .button-video:after {
+  display: inline-block;
+  font-family: 'icomoon' !important;
+  font-size: 28px;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  color: #d51a74;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* line 145, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_button.scss */
+#ace16-application .play-button__icon {
+  margin-left: 7px;
+  margin-bottom: 7px;
+  font-size: 28px;
+  color: #d51a74;
+  -ms-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+/* line 158, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_button.scss */
+#ace16-application .button-video--play:after {
+  content: "e";
+  margin-left: 7px;
+  margin-bottom: 7px;
+}
+/* line 166, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_button.scss */
+#ace16-application .button-video--pause:after {
+  content: "a";
+}
+/* line 172, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_button.scss */
+#ace16-application .button-video--replay:after {
+  content: "e";
+}
+/* line 184, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_button.scss */
+#ace16-application .button-play--small {
+  overflow: hidden;
+  width: 80px;
+  height: 80px;
+}
+/* line 206, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_button.scss */
+#ace16-application .button-play--inactive {
+  cursor: default;
+}
+/* line 216, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_button.scss */
+#ace16-application .button-close {
+  display: block;
+  width: 74px;
+  height: 74px;
+  font-size: 17px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #2c1f48;
+}
+/* line 230, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_button.scss */
+#ace16-application .button-close:hover {
+  text-decoration: none;
+  background-color: #d51a74;
+}
+/* line 1, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_section.scss */
+#ace16-application .section {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  min-height: 100%;
+}
+/* line 11, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_section.scss */
+#ace16-application .product {
+  background: #000;
+}
+/* line 13, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_section.scss */
+#ace16-application .section--hero:first-child {
+  opacity: 0;
+}
+/* line 17, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_section.scss */
+#ace16-application.no-js .product--purecontrol .section--hero {
+  opacity: 1;
+}
+/* line 21, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_section.scss */
+#ace16-application.no-js .section {
+  min-height: 900px;
+}
+/* line 25, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_section.scss */
+#ace16-application .no-js-title {
+  display: none;
+}
+/* line 28, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_section.scss */
+#ace16-application .no-js-tagline {
+  display: none;
+}
+/* line 31, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_section.scss */
+#ace16-application .no-js-subtitle {
+  display: none;
+}
+/* line 35, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_section.scss */
+#ace16-application .paralax-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+/* line 46, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_section.scss */
+#ace16-application .pattern-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/misc/pattern.jpg);
+}
+/* line 56, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_section.scss */
+#ace16-application .pattern-background--reverted {
+  background-image: url(../img/misc/pattern-reverted.jpg);
+  background-position: bottom left;
+}
+/* line 61, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_section.scss */
+#ace16-application .section--hero {
+  background-image: url(../img/misc/pattern-reverted.jpg);
+  background-position: bottom left;
+}
+/* line 68, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_section.scss */
+#ace16-application .section--quote {
+  background-image: url(../img/misc/pattern-purple.jpg);
+  background-position: top center;
+  z-index: 2;
+}
+/* line 76, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_section.scss */
+#ace16-application .section--intro {
+  background-image: url(../img/misc/pattern.jpg);
+}
+/* line 81, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_section.scss */
+#ace16-application .section--video {
+  background-color: #00963d;
+}
+/* line 86, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_section.scss */
+#ace16-application .section--details {
+  text-align: center;
+}
+/* line 90, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_section.scss */
+#ace16-application.no-js .section--details {
+  background-image: url(../img/misc/pattern.jpg);
+  background-attachment: fixed;
+  background-repeat: repeat-x;
+}
+/* line 96, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_section.scss */
+#ace16-application .section--collection {
+  background-image: url(../img/misc/pattern.jpg);
+}
+/* line 100, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_section.scss */
+#ace16-application .section--quote {
+  background-image: url(../img/misc/pattern-purple.jpg);
+}
+/* line 104, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_section.scss */
+#ace16-application .section--end {
+  background-image: url(../img/collection-section/pc_pattern.jpg);
+  background-position: top left;
+  background-repeat: repeat-x;
+  background-color: #232323;
+}
+/* line 111, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_section.scss */
+#ace16-application .section--link-farm {
+  background-color: #181818;
+}
+/* line 1, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_link-farm.scss */
+#ace16-application .link-farm {
+  position: relative;
+  width: 960px;
+  margin: 0 auto;
+  padding: 43px 0 60px 0;
+  font-size: 0;
+}
+/* line 12, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_link-farm.scss */
+#ace16-application .list-title {
+  margin: 0 0 22px;
+  font-family: "adineue_pro_blackregular";
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -khtml-font-smoothing: antialiased;
+  -apple-font-smoothing: antialiased;
+  font-smooth: always;
+}
+/* line 23, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_link-farm.scss */
+#ace16-application .wrapper-list-link-farm {
+  display: inline-block;
+  width: 220px;
+  margin: 0 10px;
+  vertical-align: top;
+}
+/* line 33, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_link-farm.scss */
+#ace16-application .list-link-farm {
+  position: relative;
+  width: 100%;
+  margin: 0;
+}
+/* line 40, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_link-farm.scss */
+#ace16-application .list-item-link-farm {
+  margin: 0;
+  padding: 0 0 13px;
+}
+/* line 44, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_link-farm.scss */
+#ace16-application .list-item-link-farm:last-child {
+  padding-bottom: 28px;
+}
+/* line 1, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-navigation.scss */
+#ace16-application .details-navigation-list {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 12px;
+  bottom: 0;
+  margin: auto 0 auto auto;
+  height: 250px;
+  width: 39px;
+  z-index: 2;
+  -moz-transform: translateX(300px);
+  -ms-transform: translateX(300px);
+  -webkit-transform: translateX(300px);
+  transform: translateX(300px);
+}
+/* line 17, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-navigation.scss */
+#ace16-application .details-navigation-list__item {
+  position: relative;
+  height: 39px;
+  margin-bottom: 18px;
+  text-align: center;
+}
+/* line 24, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-navigation.scss */
+#ace16-application .details-navigation-list__item:last-of-type {
+  margin-bottom: 0;
+}
+/* line 31, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-navigation.scss */
+#ace16-application .details-navigation-list__button--active .details-navigation-list__button-dot {
+  -webkit-box-shadow: 0px 0px 0px 7px rgba(255, 255, 255, 0.35);
+  -moz-box-shadow: 0px 0px 0px 7px rgba(255, 255, 255, 0.35);
+  box-shadow: 0px 0px 0px 7px rgba(255, 255, 255, 0.35);
+}
+/* line 46, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-navigation.scss */
+#ace16-application .details-navigation-list__button {
+  display: inline-block;
+  width: 39px;
+  height: 39px;
+  -webkit-tap-highlight-color: transparent;
+}
+/* line 60, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-navigation.scss */
+#ace16-application.is-desktop .details-navigation-list__button:hover .details-navigation-list__button-dot {
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+/* line 66, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-navigation.scss */
+#ace16-application.is-desktop .details-navigation-list__button:hover + .details-navigation-list__label {
+  opacity: 1;
+}
+/* line 73, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-navigation.scss */
+#ace16-application .details-navigation-list__button-dot {
+  width: 7px;
+  height: 7px;
+  margin: 16px auto;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+}
+/* line 85, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-navigation.scss */
+#ace16-application .details-navigation-list__label {
+  opacity: 0;
+  position: absolute;
+  right: 40px;
+  top: 9px;
+  text-align: right;
+  -webkit-transition: opacity .2s ease-out;
+  transition: opacity .2s ease-out;
+}
+/* line 1, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application .main-navigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 400px;
+  background-color: #2c1f48;
+  -moz-transform: translateX(-342px);
+  -ms-transform: translateX(-342px);
+  -webkit-transform: translateX(-342px);
+  transform: translateX(-342px);
+}
+/* line 13, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application.no-js .main-navigation {
+  position: fixed;
+  z-index: 2;
+}
+/* line 18, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application .list.main-navigation-list {
+  height: 100%;
+}
+/* line 22, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application .main-navigation-list__item {
+  position: relative;
+  -moz-transition: background-color 0.3s ease-out;
+  -o-transition: background-color 0.3s ease-out;
+  -webkit-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out;
+}
+/* line 27, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application .main-navigation-list__item.active {
+  background-color: #3b2d5d;
+}
+/* line 31, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application .main-navigation-list__item:not(:last-of-type):after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #3b2d5d;
+}
+/* line 45, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application .list-item-1-2 {
+  height: 50%;
+}
+/* line 49, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application .list-item-1-3 {
+  height: 33.3%;
+}
+/* line 53, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application .main-navigation__link {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+/* line 59, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application .main-navigation-list__inner {
+  position: absolute;
+  height: 200px;
+  width: auto;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 20px;
+  right: 58px;
+}
+/* line 70, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application .main-navigation__label {
+  position: absolute;
+  width: 200px;
+  height: 58px;
+  padding: 14px 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  -ms-transform: rotate(-90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-90deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(-90deg);
+  -ms-transform-origin: 100% 0%;
+  /* IE 9 */
+  -webkit-transform-origin: 100% 0%;
+  /* Chrome, Safari, Opera */
+  transform-origin: 100% 0%;
+}
+/* line 90, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application .main-navigation__label-copy {
+  font-size: 15px;
+}
+/* line 94, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application .main-navigation__content {
+  height: 200px;
+  max-width: 265px;
+  margin: auto;
+  padding-top: 70px;
+}
+/* line 101, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application .main-navigation__copy {
+  margin: auto;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+}
+/* line 109, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application .main-navigation__shoe-figure {
+  margin: auto auto 30px;
+}
+/* line 114, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application .main-navigation--purecontrol .main-navigation__shoe-figure {
+  width: 232px;
+  height: 66px;
+  background-size: 232px 66px;
+  background-image: url("../img/main-menu/purecontrol-shoe.png");
+  background-repeat: no-repeat;
+}
+/* line 124, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application .main-navigation--primeknit .main-navigation__shoe-figure {
+  width: 219px;
+  height: 71px;
+  background-size: 219px 71px;
+  background-image: url("../img/main-menu/primeknit-shoe.png");
+  background-repeat: no-repeat;
+}
+/* line 134, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application .main-navigation--tkrz .main-navigation__shoe-figure {
+  width: 214px;
+  height: 86px;
+  background-size: 214px 86px;
+  background-image: url("../img/main-menu/tkrz-shoe.png");
+  background-repeat: no-repeat;
+}
+/* line 144, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application .main-navigation__progress {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 3px;
+  height: 100%;
+  z-index: 1;
+}
+/* line 153, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application .main-navigation__progress-bar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: inherit;
+  height: 100%;
+  z-index: 1;
+  -moz-transform: scaleY(0);
+  -ms-transform: scaleY(0);
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  background-color: #d51a74;
+}
+/* line 3, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_hero.scss */
+#ace16-application .hero-logo {
+  position: relative;
+  text-align: center;
+  padding: 30px;
+}
+/* line 11, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_hero.scss */
+#ace16-application .hero-logo__icon {
+  display: block;
+  padding-bottom: 4px;
+  font-size: 50px;
+  color: #FFFFFF;
+}
+/* line 19, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_hero.scss */
+#ace16-application .hero-logo__name {
+  margin-bottom: 5px;
+  font-family: 'adineue_pro_lightregular';
+  letter-spacing: -1px;
+  font-size: 30px;
+}
+/* line 26, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_hero.scss */
+#ace16-application .hero-logo__name b,
+#ace16-application .hero-logo__name strong {
+  font-family: 'adineue_pro_blackregular';
+  letter-spacing: 0px;
+}
+/* line 33, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_hero.scss */
+#ace16-application .hero-logo__tagline {
+  font-size: 15px;
+  letter-spacing: 6.8px;
+  font-family: 'adineue_proregular';
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -khtml-font-smoothing: antialiased;
+  -apple-font-smoothing: antialiased;
+  font-smooth: always;
+}
+/* line 49, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_hero.scss */
+#ace16-application .hero-content {
+  position: absolute;
+  left: 68px;
+  right: 58px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 150px;
+  text-align: center;
+}
+/* line 65, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_hero.scss */
+#ace16-application .hero-content--bottom {
+  top: auto;
+  bottom: 70px;
+  min-height: 150px;
+  height: auto;
+}
+/* line 72, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_hero.scss */
+#ace16-application .hero-content__title {
+  margin-bottom: 7px;
+}
+/* line 76, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_hero.scss */
+#ace16-application .product--primeknit .hero-content__button {
+  margin: 0 8px;
+}
+/* line 80, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_hero.scss */
+#ace16-application .product--primeknit .hero-content__title {
+  margin-bottom: 17px;
+}
+/* line 84, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_hero.scss */
+#ace16-application .hero-indicator {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 27px;
+  height: 60px;
+  overflow: hidden;
+}
+/* line 95, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_hero.scss */
+#ace16-application .hero-indicator__icon {
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  font-size: 27px;
+  color: #FFFFFF;
+}
+/* line 103, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_hero.scss */
+#ace16-application .hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* line 112, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_hero.scss */
+#ace16-application .hero-background--purecontrol {
+  background-image: url(../img/hero-section/ps_heroimage1_mini.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* line 118, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_hero.scss */
+#ace16-application .hero-background--primeknit {
+  background-image: url(../img/primeknit/hero-section/16.1-hero.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#ace16-application .hero-background--sixteen {
+  background-image: url(../img/primeknit/hero-section/syn_leath_final.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* line 124, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_hero.scss */
+#ace16-application .hero-visual {
+  position: absolute;
+  bottom: 0;
+  height: 1148px;
+  width: 796px;
+}
+/* line 131, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_hero.scss */
+#ace16-application .hero-visual--l {
+  left: 0;
+  background-image: url(../img/primeknit/hero-section/pk_player.png);
+  background-position: -575px bottom;
+  background-repeat: no-repeat;
+  background-size: 1148px 796px;
+}
+/* line 140, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_hero.scss */
+#ace16-application .hero-visual--r {
+  right: 0;
+  background-image: url(../img/primeknit/hero-section/pk_player.png);
+  background-position: 219px bottom;
+  background-repeat: no-repeat;
+  background-size: 1148px 796px;
+}
+@media screen and (max-width: 1024px) {
+  /* line 150, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_hero.scss */
+  #ace16-application .hero-visual--l {
+    display: none;
+  }
+  /* line 154, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_hero.scss */
+  #ace16-application .hero-visual--r {
+    display: none;
+  }
+}
+/* line 1, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_video.scss */
+#ace16-application .video-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* line 10, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_video.scss */
+#ace16-application .video-wrapper__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+/* line 21, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_video.scss */
+#ace16-application .video-wrapper__button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  z-index: 1;
+}
+/* line 33, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_video.scss */
+#ace16-application .video-wrapper__poster {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 1, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-video.scss */
+#ace16-application .details-list-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+/* line 14, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-video.scss */
+#ace16-application.is-tablet .details-list-video {
+  background-color: #000;
+}
+/* line 18, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-video.scss */
+#ace16-application .details-list-video__canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* line 29, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-video.scss */
+#ace16-application .details-list-video__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+/* line 44, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-video.scss */
+#ace16-application .details-list-video__progress {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  z-index: 1;
+  background-color: #2c2047;
+}
+/* line 57, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-video.scss */
+#ace16-application .details-list-video__progress-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: inherit;
+  z-index: 1;
+  -moz-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  background-color: #d51a74;
+}
+/* line 72, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-video.scss */
+#ace16-application .details-list-video__button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+/* line 1, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details.scss */
+#ace16-application .details-list__item {
+  position: relative;
+}
+/* line 7, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details.scss */
+#ace16-application.no-js .details-list__item {
+  overflow: hidden;
+}
+/* line 11, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details.scss */
+#ace16-application .details-list-inner {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 455px;
+  width: 945px;
+  margin: auto;
+}
+@media screen and (max-width: 1250px) {
+  /* line 11, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details.scss */
+  #ace16-application .details-list-inner {
+    width: 700px;
+  }
+}
+/* line 26, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details.scss */
+#ace16-application.no-js .details-list__item {
+  height: 900px;
+}
+/* line 30, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details.scss */
+#ace16-application .details-list-content {
+  position: absolute;
+  z-index: 1;
+}
+/* line 35, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details.scss */
+#ace16-application .details-list-content--left {
+  left: 0;
+  text-align: left;
+}
+/* line 40, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details.scss */
+#ace16-application .details-list-content--right {
+  right: 0;
+  text-align: left;
+}
+/* line 45, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details.scss */
+#ace16-application .details-list-content--bottom {
+  bottom: 0;
+  text-align: center;
+}
+/* line 54, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details.scss */
+#ace16-application .details-list-content__subtitle {
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 4.3px;
+  font-family: 'adineue_pro_boldregular';
+  text-transform: uppercase;
+}
+/* line 62, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details.scss */
+#ace16-application .details-list__image {
+  position: absolute;
+}
+/* line 66, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details.scss */
+#ace16-application .details-list__image-shadow {
+  position: absolute;
+  margin: 0;
+}
+/* line 71, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details.scss */
+#ace16-application .details-list__button {
+  position: absolute;
+}
+/* line 75, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details.scss */
+#ace16-application .section-details__button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  min-width: 258px;
+  max-width: 334px;
+  margin: 0 auto;
+  z-index: 2;
+}
+@media screen and (max-height: 650px) {
+  /* line 75, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details.scss */
+  #ace16-application .section-details__button {
+    margin-top: 30px;
+  }
+}
+/* line 95, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details.scss */
+#ace16-application.no-js .section-details__button {
+  position: absolute;
+  top: auto;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+  margin: 0 auto 0 auto;
+}
+/* line 1, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_collection.scss */
+#ace16-application .collection-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 500px;
+  height: 206px;
+  z-index: 2;
+  margin: auto;
+  text-align: center;
+}
+/* line 17, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_collection.scss */
+#ace16-application .collection-content__title {
+  margin: 0 0 33px 0;
+  letter-spacing: 6px;
+  line-height: 41px;
+}
+/* line 28, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_collection.scss */
+#ace16-application .collection-background {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 902px;
+  margin: 0;
+}
+/* line 39, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_collection.scss */
+#ace16-application .collection-background--purecontrol {
+  background-image: url(../img/intro-section/pc_player2.png);
+  background-position: -1320px bottom;
+  background-repeat: no-repeat;
+}
+/* line 45, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_collection.scss */
+#ace16-application .collection-background--primeknit {
+  background-image: url(../img/primeknit/collection-section/pk_player_end_l.png);
+  background-position: -1111px bottom;
+  background-repeat: no-repeat;
+}
+/* line 51, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_collection.scss */
+#ace16-application .collection-visual {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+  width: 40%;
+  height: 100%;
+  margin: 0;
+}
+/* line 65, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_collection.scss */
+#ace16-application .collection-visual .figure {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+/* line 74, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_collection.scss */
+#ace16-application .collection-visual--background {
+  background-image: url(../img/collection-section/pk_player_end_r_background.jpg);
+  background-size: cover;
+}
+/* line 79, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_collection.scss */
+#ace16-application .collection-visual--overlay {
+  width: 94px;
+  background-image: url(../img/collection-section/pk_player_end_r_overlay.png);
+  background-size: auto 100%;
+}
+/* line 85, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_collection.scss */
+#ace16-application .collection-visual--player-purecontrol {
+  background-image: url(../img/collection-section/pc_player_end2_player.png);
+  background-size: 747px 739px;
+  background-position: bottom left;
+}
+/* line 91, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_collection.scss */
+#ace16-application .collection-visual--player-primeknit {
+  background-image: url(../img/primeknit/collection-section/pk_player_end_r_player.png);
+  background-size: 497px 698px;
+  background-position: bottom right;
+}
+/* line 1, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_end.scss */
+#ace16-application .end-content {
+  padding: 157px 125px;
+  text-align: center;
+  width: 100%;
+}
+/* line 10, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_end.scss */
+#ace16-application .end-content__title {
+  margin-bottom: 50px;
+  font-size: 48px;
+  letter-spacing: 10px;
+}
+/* line 18, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_end.scss */
+#ace16-application .end-content__button {
+  margin: 0 10px 20px;
+  max-width: 400px;
+  padding: 0 8px;
+}
+/* line 1, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+#ace16-application .product--purecontrol {
+  /*
+   *  Techfit
+   * ---------------------------------------------------------------------------------------- */
+  /*
+   *  Purecontrol
+   * ---------------------------------------------------------------------------------------- */
+  /*
+   *  Groundctrl
+   * ---------------------------------------------------------------------------------------- */
+  /*
+   *  Primeknit
+   * ---------------------------------------------------------------------------------------- */
+  /*
+   *  Primecut
+   * ---------------------------------------------------------------------------------------- */
+/*
+   *  Other
+   * ---------------------------------------------------------------------------------------- */
+}
+@media screen and (max-width: 1024px) {
+  /* line 9, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+  #ace16-application .product--purecontrol .details-list--techfit .details-list-inner {
+    width: auto;
+    margin: auto 65px auto 78px;
+  }
+}
+/* line 16, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+#ace16-application .product--purecontrol .details-list--techfit .details-list-content {
+  top: 117px;
+  width: 372px;
+}
+/* line 21, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+#ace16-application .product--purecontrol .details-list--techfit .details-list__image {
+  left: 198px;
+  top: 22px;
+  -ms-transform: rotate(-25deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-25deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(-25deg);
+}
+/* line 30, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+#ace16-application .product--purecontrol .details-list--techfit .details-list__image-shadow {
+  bottom: -126px;
+  left: 294px;
+  width: 839px;
+  height: 141px;
+  background-image: url("../img/detail-section/ps_shoe1_shadow.png");
+  background-repeat: no-repeat;
+}
+/* line 41, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+#ace16-application .product--purecontrol .details-list--techfit .details-list__button {
+  top: 112px;
+  left: 461px;
+}
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+  /* line 9, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+  #ace16-application .product--purecontrol .details-list--other .details-list-inner {
+    width: auto;
+    margin: auto 65px auto 78px;
+  }
+}
+/* line 16, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+#ace16-application .product--purecontrol .details-list--other .details-list-content {
+  top: 117px;
+  width: 372px;
+}
+/* line 21, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+#ace16-application .product--purecontrol .details-list--other .details-list__image {
+  left: 198px;
+  top: 22px;
+  -ms-transform: rotate(-25deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-25deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(-25deg);
+}
+/* line 30, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+#ace16-application .product--purecontrol .details-list--other .details-list__image-shadow {
+  bottom: -126px;
+  left: 294px;
+  width: 839px;
+  height: 141px;
+  background-image: url("../img/detail-section/ps_shoe1_shadow.png");
+  background-repeat: no-repeat;
+}
+
+/* line 41, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+#ace16-application .product--purecontrol .details-list--other .details-list__button {
+  top: 112px;
+  left: 461px;
+}
+
+
+@media screen and (max-width: 1024px) {
+  /* line 56, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+  #ace16-application .product--purecontrol .details-list--purecontrol .details-list-inner {
+    width: auto;
+    margin: auto 65px auto 78px;
+  }
+}
+/* line 63, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+#ace16-application .product--purecontrol .details-list--purecontrol .details-list-content {
+  left: 0;
+  right: 0;
+  bottom: 40px;
+  max-width: 707px;
+  width: 100%;
+  margin: auto;
+}
+/* line 73, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+#ace16-application .product--purecontrol .details-list--purecontrol .details-list__image-shadow {
+  top: 165px;
+  left: 228px;
+  width: 839px;
+  height: 141px;
+  background-image: url("../img/detail-section/ps_shoe2_shadow.png");
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 1250px) {
+  /* line 73, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+  #ace16-application .product--purecontrol .details-list--purecontrol .details-list__image-shadow {
+    left: 93px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* line 73, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+  #ace16-application .product--purecontrol .details-list--purecontrol .details-list__image-shadow {
+    display: inline-block;
+    left: auto;
+    right: auto;
+    margin-left: -255px;
+  }
+}
+/* line 95, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+#ace16-application .product--purecontrol .details-list--purecontrol .details-list__image {
+  left: -37px;
+  right: 0;
+  top: -246px;
+  margin: auto;
+  -ms-transform: rotate(-90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-90deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(-90deg);
+}
+/* line 106, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+#ace16-application .product--purecontrol .details-list--purecontrol .details-list__button {
+  left: 0;
+  right: 0;
+  top: 129px;
+  margin: auto;
+}
+@media screen and (max-width: 1024px) {
+  /* line 123, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+  #ace16-application .product--purecontrol .details-list--groundctrl .details-list-inner {
+    width: auto;
+    margin: auto 65px auto 78px;
+  }
+}
+/* line 130, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+#ace16-application .product--purecontrol .details-list--groundctrl .details-list-content {
+  top: 177px;
+  right: 33px;
+  width: 373px;
+  max-width: 100%;
+}
+@media screen and (max-width: 1250px) {
+  /* line 130, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+  #ace16-application .product--purecontrol .details-list--groundctrl .details-list-content {
+    right: 0;
+  }
+}
+/* line 141, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+#ace16-application .product--purecontrol .details-list--groundctrl .details-list__image {
+  left: -278px;
+  top: 97px;
+  -ms-transform: rotate(-35.87deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-35.87deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(-35.87deg);
+}
+@media screen and (max-width: 1250px) {
+  /* line 141, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+  #ace16-application .product--purecontrol .details-list--groundctrl .details-list__image {
+    left: -489px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* line 141, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+  #ace16-application .product--purecontrol .details-list--groundctrl .details-list__image {
+    left: auto;
+    right: 384px;
+  }
+}
+/* line 158, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+#ace16-application .product--purecontrol .details-list--groundctrl .details-list__button {
+  top: 155px;
+  left: 461px;
+}
+@media screen and (max-width: 1250px) {
+  /* line 158, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+  #ace16-application .product--purecontrol .details-list--groundctrl .details-list__button {
+    left: 250px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* line 158, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+  #ace16-application .product--purecontrol .details-list--groundctrl .details-list__button {
+    left: auto;
+    right: 369px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* line 179, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+  #ace16-application .product--purecontrol .details-list--primeknit .details-list-inner {
+    width: auto;
+    margin: auto 65px auto 78px;
+  }
+}
+/* line 186, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+#ace16-application .product--purecontrol .details-list--primeknit .details-list-content {
+  left: 0;
+  right: 0;
+  bottom: 36px;
+  max-width: 630px;
+  width: 100%;
+  margin: auto;
+}
+/* line 196, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+#ace16-application .product--purecontrol .details-list--primeknit .details-list__image {
+  left: 12px;
+  right: 0;
+  top: -759px;
+  margin: auto;
+}
+/* line 203, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+#ace16-application .product--purecontrol .details-list--primeknit .details-list__image-shadow {
+  top: 230px;
+  left: 173px;
+  right: 0;
+  margin: auto;
+  width: 468px;
+  height: 63px;
+  background-image: url("../img/detail-section/ps_shoe4_shadow.png");
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 1024px) {
+  /* line 203, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+  #ace16-application .product--purecontrol .details-list--primeknit .details-list__image-shadow {
+    display: inline-block;
+    left: auto;
+    right: auto;
+    margin-left: -152px;
+  }
+}
+/* line 225, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+#ace16-application .product--purecontrol .details-list--primeknit .details-list__button {
+  top: -50px;
+  left: 75px;
+  right: 0;
+  margin: auto;
+}
+@media screen and (max-width: 1024px) {
+  /* line 241, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+  #ace16-application .product--purecontrol .details-list--primecut .details-list-inner {
+    width: auto;
+    margin: auto 65px auto 78px;
+  }
+}
+/* line 248, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+#ace16-application .product--purecontrol .details-list--primecut .details-list-content {
+  top: 107px;
+  right: 0;
+  width: 402px;
+}
+/* line 254, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+#ace16-application .product--purecontrol .details-list--primecut .details-list__image {
+  top: -23px;
+  left: -354px;
+}
+@media screen and (max-width: 1250px) {
+  /* line 254, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+  #ace16-application .product--purecontrol .details-list--primecut .details-list__image {
+    left: -603px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* line 254, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+  #ace16-application .product--purecontrol .details-list--primecut .details-list__image {
+    left: auto;
+    right: 425px;
+  }
+}
+/* line 267, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+#ace16-application .product--purecontrol .details-list--primecut .details-list__image-shadow {
+  width: 1140px;
+  height: 89px;
+  bottom: -130px;
+  left: -317px;
+  background-image: url("../img/detail-section/ps_shoe5_shadow.png");
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 1250px) {
+  /* line 267, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+  #ace16-application .product--purecontrol .details-list--primecut .details-list__image-shadow {
+    left: -578px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* line 267, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+  #ace16-application .product--purecontrol .details-list--primecut .details-list__image-shadow {
+    left: auto;
+    right: 142px;
+  }
+}
+/* line 285, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+#ace16-application .product--purecontrol .details-list--primecut .details-list__button {
+  left: 302px;
+  top: 44px;
+}
+@media screen and (max-width: 1250px) {
+  /* line 285, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+  #ace16-application .product--purecontrol .details-list--primecut .details-list__button {
+    left: 57px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* line 285, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-purecontrol.scss */
+  #ace16-application .product--purecontrol .details-list--primecut .details-list__button {
+    left: auto;
+    right: 562px;
+  }
+}
+/* line 1, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-primeknit.scss */
+#ace16-application .product--primeknit {
+  /*
+   *  Primeknit
+   * ---------------------------------------------------------------------------------------- */
+  /*
+   *  Groundctrl
+   * ---------------------------------------------------------------------------------------- */
+  /*
+   *  Primecut
+   * ---------------------------------------------------------------------------------------- */
+  /*
+   *  Techfit
+   * ---------------------------------------------------------------------------------------- */
+}
+@media screen and (max-width: 1024px) {
+  /* line 9, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-primeknit.scss */
+  #ace16-application .product--primeknit .details-list--primeknit .details-list-inner {
+    width: auto;
+    margin: auto 65px auto 78px;
+  }
+}
+/* line 16, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-primeknit.scss */
+#ace16-application .product--primeknit .details-list--primeknit .details-list-content {
+  left: 0;
+  right: 0;
+  bottom: 42px;
+  max-width: 630px;
+  width: 100%;
+  margin: auto;
+}
+/* line 26, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-primeknit.scss */
+#ace16-application .product--primeknit .details-list--primeknit .details-list-content__body {
+  margin-bottom: 26px;
+}
+/* line 30, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-primeknit.scss */
+#ace16-application .product--primeknit .details-list--primeknit .details-list__image {
+  right: 0;
+  margin: auto;
+  -moz-transform: scaleX(-1) rotate(-21deg);
+  -ms-transform: scaleX(-1) rotate(-21deg);
+  -webkit-transform: scaleX(-1) rotate(-21deg);
+  transform: scaleX(-1) rotate(-21deg);
+  left: -797px;
+  top: -476px;
+}
+/* line 42, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-primeknit.scss */
+#ace16-application .product--primeknit .details-list--primeknit .details-list__button {
+  top: -23px;
+  left: 39px;
+  right: 0;
+  margin: auto;
+}
+@media screen and (max-width: 1024px) {
+  /* line 57, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-primeknit.scss */
+  #ace16-application .product--primeknit .details-list--groundctrl .details-list-inner {
+    width: auto;
+    margin: auto 65px auto 78px;
+  }
+}
+/* line 64, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-primeknit.scss */
+#ace16-application .product--primeknit .details-list--groundctrl .details-list-content {
+  right: 0px;
+  bottom: 50px;
+  width: 509px;
+  max-width: 100%;
+}
+@media screen and (max-width: 1250px) {
+  /* line 64, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-primeknit.scss */
+  #ace16-application .product--primeknit .details-list--groundctrl .details-list-content {
+    right: 0;
+  }
+}
+/* line 75, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-primeknit.scss */
+#ace16-application .product--primeknit .details-list--groundctrl .details-list-content__body:nth-of-type(2) {
+  max-width: 455px;
+  margin-bottom: 27px;
+}
+/* line 80, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-primeknit.scss */
+#ace16-application .product--primeknit .details-list--groundctrl .details-list__image {
+  left: -574px;
+  top: -591px;
+  -ms-transform: rotate(45deg);
+  /* IE 9 */
+  -webkit-transform: rotate(45deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+}
+@media screen and (max-width: 1250px) {
+  /* line 80, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-primeknit.scss */
+  #ace16-application .product--primeknit .details-list--groundctrl .details-list__image {
+    left: -820px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* line 80, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-primeknit.scss */
+  #ace16-application .product--primeknit .details-list--groundctrl .details-list__image {
+    left: auto;
+    right: 324px;
+  }
+}
+/* line 97, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-primeknit.scss */
+#ace16-application .product--primeknit .details-list--groundctrl .details-list__button {
+  top: 0;
+  left: 175px;
+}
+@media screen and (max-width: 1250px) {
+  /* line 97, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-primeknit.scss */
+  #ace16-application .product--primeknit .details-list--groundctrl .details-list__button {
+    left: 60px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* line 97, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-primeknit.scss */
+  #ace16-application .product--primeknit .details-list--groundctrl .details-list__button {
+    left: auto;
+    right: 561px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  /* line 118, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-primeknit.scss */
+  #ace16-application .product--primeknit .details-list--primecut .details-list-inner {
+    width: auto;
+    margin: auto 65px auto 78px;
+  }
+}
+/* line 125, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-primeknit.scss */
+#ace16-application .product--primeknit .details-list--primecut .details-list-content {
+  top: 79px;
+  left: 46px;
+  max-width: 343px;
+  width: auto;
+}
+/* line 132, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-primeknit.scss */
+#ace16-application .product--primeknit .details-list--primecut .details-list-content__body:nth-of-type(2) {
+  margin-bottom: 27px;
+}
+/* line 136, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-primeknit.scss */
+#ace16-application .product--primeknit .details-list--primecut .details-list__image {
+  -moz-transform: scaleX(-1) rotate(-27deg);
+  -ms-transform: scaleX(-1) rotate(-27deg);
+  -webkit-transform: scaleX(-1) rotate(-27deg);
+  transform: scaleX(-1) rotate(-27deg);
+  top: 279px;
+  left: 318px;
+}
+/* line 146, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-primeknit.scss */
+#ace16-application .product--primeknit .details-list--primecut .details-list__button {
+  left: 585px;
+  top: 365px;
+}
+@media screen and (max-width: 1024px) {
+  /* line 159, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-primeknit.scss */
+  #ace16-application .product--primeknit .details-list--techfit .details-list-inner {
+    width: auto;
+    margin: auto 65px auto 78px;
+  }
+}
+/* line 166, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-primeknit.scss */
+#ace16-application .product--primeknit .details-list--techfit .details-list-content {
+  top: 63px;
+  left: 30px;
+  max-width: 372px;
+}
+/* line 172, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-primeknit.scss */
+#ace16-application .product--primeknit .details-list--techfit .details-list-content__body {
+  margin-bottom: 26px;
+}
+/* line 176, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-primeknit.scss */
+#ace16-application .product--primeknit .details-list--techfit .details-list__image {
+  left: 189px;
+  top: -5px;
+  -ms-transform: rotate(-30deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-30deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(-30deg);
+}
+/* line 185, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-primeknit.scss */
+#ace16-application .product--primeknit .details-list--techfit .details-list__image-shadow {
+  bottom: -36px;
+  left: 307px;
+  width: 640px;
+  height: 103px;
+  background-size: 640px 103px;
+  background-image: url("../img/primeknit/detail-section/pk_shoe_4_shadow.png");
+  background-repeat: no-repeat;
+}
+/* line 198, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-primeknit.scss */
+#ace16-application .product--primeknit .details-list--techfit .details-list__button {
+  top: 34px;
+  left: 478px;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  /* line 159, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-primeknit.scss */
+  #ace16-application .product--primeknit .details-list--other .details-list-inner {
+    width: auto;
+    margin: auto 65px auto 78px;
+  }
+}
+/* line 166, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-primeknit.scss */
+#ace16-application .product--primeknit .details-list--other .details-list-content {
+  top: 63px;
+  left: 30px;
+  max-width: 372px;
+}
+/* line 172, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-primeknit.scss */
+#ace16-application .product--primeknit .details-list--other .details-list-content__body {
+  margin-bottom: 26px;
+}
+/* line 176, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-primeknit.scss */
+#ace16-application .product--primeknit .details-list--other .details-list__image {
+  left: 189px;
+  top: -5px;
+  -ms-transform: rotate(-30deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-30deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(-30deg);
+}
+/* line 185, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-primeknit.scss */
+#ace16-application .product--primeknit .details-list--other .details-list__image-shadow {
+  bottom: -36px;
+  left: 307px;
+  width: 640px;
+  height: 103px;
+  background-size: 640px 103px;
+  background-image: url("../img/primeknit/detail-section/pk_shoe_4_shadow.png");
+  background-repeat: no-repeat;
+}
+/* line 198, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_details-primeknit.scss */
+#ace16-application .product--primeknit .details-list--other .details-list__button {
+  top: 34px;
+  left: 478px;
+}
+
+
+
+/* line 4, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_intro-purecontrol.scss */
+#ace16-application .product--purecontrol .intro-content {
+  position: absolute;
+  top: -66px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto 20px auto 44%;
+  height: 289px;
+}
+/* line 17, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_intro-purecontrol.scss */
+#ace16-application .product--purecontrol .intro-content__title {
+  position: relative;
+  margin-bottom: 21px;
+}
+/* line 32, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_intro-purecontrol.scss */
+#ace16-application .product--purecontrol .intro-content__body {
+  max-width: 549px;
+  font-size: 18px;
+  text-transform: uppercase;
+  quotes: "“" "”";
+}
+/* line 39, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_intro-purecontrol.scss */
+#ace16-application .product--purecontrol .intro-content__body:before {
+  content: open-quote;
+}
+/* line 43, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_intro-purecontrol.scss */
+#ace16-application .product--purecontrol .intro-content__body:after {
+  content: close-quote;
+}
+/* line 48, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_intro-purecontrol.scss */
+#ace16-application .product--purecontrol .intro-background--purecontrol {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-image: url(../img/intro-section/pc_player2.png);
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+/* line 4, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_intro-primeknit.scss */
+#ace16-application .product--primeknit .intro-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto 50px;
+  height: 242px;
+  text-align: center;
+}
+/* line 17, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_intro-primeknit.scss */
+#ace16-application .product--primeknit .intro-content__title {
+  position: relative;
+  margin-top: 9px;
+  margin-bottom: 36px;
+  letter-spacing: 15px;
+}
+/* line 25, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_intro-primeknit.scss */
+#ace16-application .product--primeknit .intro-content__subtitle {
+  display: block;
+  position: relative;
+  letter-spacing: 0.5px;
+}
+/* line 31, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_intro-primeknit.scss */
+#ace16-application .product--primeknit .intro-content__body {
+  text-transform: uppercase;
+  font-size: 34px;
+  line-height: 42px;
+}
+/* line 37, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_intro-primeknit.scss */
+#ace16-application .product--primeknit .intro-background {
+  position: absolute;
+  top: -200px;
+  left: 0;
+  width: 100%;
+  height: 1000px;
+  margin: 0;
+  background-image: url(../img/primeknit/intro-section/pk_shoe_front.png);
+  background-size: 323px 1000px;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+/* line 1, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application .main-navigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 400px;
+  background-color: #2c1f48;
+  -moz-transform: translateX(-342px);
+  -ms-transform: translateX(-342px);
+  -webkit-transform: translateX(-342px);
+  transform: translateX(-342px);
+}
+/* line 13, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application.no-js .main-navigation {
+  position: fixed;
+  z-index: 2;
+}
+/* line 18, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application .list.main-navigation-list {
+  height: 100%;
+}
+/* line 22, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application .main-navigation-list__item {
+  position: relative;
+  -moz-transition: background-color 0.3s ease-out;
+  -o-transition: background-color 0.3s ease-out;
+  -webkit-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out;
+}
+/* line 27, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application .main-navigation-list__item.active {
+  background-color: #3b2d5d;
+}
+/* line 31, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application .main-navigation-list__item:not(:last-of-type):after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #3b2d5d;
+}
+/* line 45, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application .list-item-1-2 {
+  height: 50%;
+}
+/* line 49, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application .list-item-1-3 {
+  height: 33.3%;
+}
+/* line 53, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application .main-navigation__link {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+/* line 59, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application .main-navigation-list__inner {
+  position: absolute;
+  height: 200px;
+  width: auto;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 20px;
+  right: 58px;
+}
+/* line 70, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application .main-navigation__label {
+  position: absolute;
+  width: 200px;
+  height: 58px;
+  padding: 14px 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  -ms-transform: rotate(-90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-90deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(-90deg);
+  -ms-transform-origin: 100% 0%;
+  /* IE 9 */
+  -webkit-transform-origin: 100% 0%;
+  /* Chrome, Safari, Opera */
+  transform-origin: 100% 0%;
+}
+/* line 90, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application .main-navigation__label-copy {
+  font-size: 15px;
+}
+/* line 94, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application .main-navigation__content {
+  height: 200px;
+  max-width: 265px;
+  margin: auto;
+  padding-top: 70px;
+}
+/* line 101, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application .main-navigation__copy {
+  margin: auto;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+}
+/* line 109, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application .main-navigation__shoe-figure {
+  margin: auto auto 30px;
+}
+/* line 114, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application .main-navigation--purecontrol .main-navigation__shoe-figure {
+  width: 232px;
+  height: 66px;
+  background-size: 232px 66px;
+  background-image: url("../img/main-menu/purecontrol-shoe.png");
+  background-repeat: no-repeat;
+}
+/* line 124, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application .main-navigation--primeknit .main-navigation__shoe-figure {
+  width: 219px;
+  height: 71px;
+  background-size: 219px 71px;
+  background-image: url("../img/main-menu/primeknit-shoe.png");
+  background-repeat: no-repeat;
+}
+/* line 134, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application .main-navigation--tkrz .main-navigation__shoe-figure {
+  width: 214px;
+  height: 86px;
+  background-size: 214px 86px;
+  background-image: url("../img/main-menu/tkrz-shoe.png");
+  background-repeat: no-repeat;
+}
+/* line 144, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application .main-navigation__progress {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 3px;
+  height: 100%;
+  z-index: 1;
+}
+/* line 153, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_main-navigation.scss */
+#ace16-application .main-navigation__progress-bar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: inherit;
+  height: 100%;
+  z-index: 1;
+  -moz-transform: scaleY(0);
+  -ms-transform: scaleY(0);
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  background-color: #d51a74;
+}
+/* line 1, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_quote.scss */
+#ace16-application .quote-content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 266px;
+  margin: auto 60px;
+  text-align: center;
+}
+/* line 13, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_quote.scss */
+#ace16-application .quote-content__body {
+  margin-bottom: 78px;
+  font-size: 36px;
+  line-height: 45px;
+}
+/* line 20, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_quote.scss */
+#ace16-application .quote-content__title {
+  letter-spacing: 0.5px;
+}
+/* line 24, ../../../../../_sass/scss/desktop/ace16/static/css/modules/_quote.scss */
+#ace16-application .quote__canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* line 3, ../../../../../_sass/scss/desktop/ace16/static/css/_no-js.scss */
+#ace16-application.no-js .needs-js {
+  display: none !important;
+}
+
+/* custom styles */
+body {background:#000;}
+#ace16-application.ace16-application {margin-top:50px; display:block;}
+#fixedBar {width:100%; height: 50px; background:#000; position:fixed; margin:0; padding:0; top:0; left:0; z-index:999;}
+#fixedBar img {width:260px; margin:12px;}

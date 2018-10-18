@@ -1,0 +1,273 @@
+/* Foundation overrides */
+
+body {
+	margin: 50px 0 0 0;
+	color: #274387;
+}
+
+.top-bar {
+ background-color: #4e4f4f;
+ width: 100% !important;
+ margin-top: 0 !important;
+ padding: 0;
+}
+
+.top-bar ul {
+	background-color: #4e4f4f;
+}
+
+.top-bar a {
+    color: #fff;
+}
+
+.callout {
+	border: 0;
+	color: #274387;
+}
+
+.button {
+	background-color: #274387;
+	text-transform: uppercase;
+	font-family: "Oswald",Helvetica,Roboto,Arial,sans-serif;
+    font-weight: 400;
+}
+
+.button:focus, .button:hover {
+	background-color: #1e3366;
+}
+
+.button.large {
+    font-size: 1rem;
+}
+
+.callout.secondary {
+    background-color: #b00304;
+    margin: 0;
+    color: #fff;
+}
+
+.callout.primary {
+    background-color: #000;
+    margin: 0;
+    color: #fff;
+}
+
+img {
+	width: 100%;
+	
+}
+.neymarlogo {
+	max-height: 313px;
+}
+
+.orbit-next, .orbit-previous {
+    color: #000;
+}
+
+.dropdown-pane {
+	width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Oswald",Helvetica,Roboto,Arial,sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+}
+
+
+/* End Foundation overrides */
+
+
+
+/* Custom Styles */ 
+
+/* Parallax */
+.parallax [class*="bg__"] {
+  position: relative;
+  height: 800px;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+.parallax .bg__foo, .parallax .bg__bazz {
+  /* height: 100vh; */
+}
+
+.parallax .bg__inner {
+  background-image: url("../img/copa-paralax-smaller.jpg");
+}
+
+/* end Parallax */
+
+
+
+.logosize {
+    max-width: 210px;
+    width: 100%;
+}
+
+.footmarg {
+padding-bottom:4em;
+}
+
+.exmarg {
+margin:5% 0 5% 0;
+}
+
+.extop {
+margin-top:20px;
+}
+
+.players p {
+	line-height: 0.4;
+	font-size: 12px;
+}
+
+.cap {
+text-transform: uppercase;
+font-family: "Oswald",Helvetica,Roboto,Arial,sans-serif;
+}
+
+#fixedBar {
+    background: #000;
+    height: 50px;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+#fixedBar img {
+    margin: 12px;
+    width: 260px;
+}
+
+.bottomrow a:hover{
+	opacity: 0.7;
+	-webkit-transition: opacity .35s ease-in-out;
+    -moz-transition: opacity .35s ease-in-out;
+     -ms-transition: opacity .35s ease-in-out;
+    -o-transition: opacity .35s ease-in-out;
+    transition: opacity .35s ease-in-out;
+}
+
+ul.menu li {
+	padding-bottom: 22px;
+    padding-left: 80px; 
+}
+
+ul li.usa{
+    background: url('../img/flag-usa.jpg')  no-repeat top left;
+    /* width: 62px;
+    height: 42px; */
+}
+
+ul li.colombia{
+    background: url('../img/flag-colombia.jpg')  no-repeat top left;
+    /* width: 62px;
+    height: 42px; */
+}  
+
+ul li.costarica{
+    background: url('../img/flag-costarica.jpg')  no-repeat top left;
+    /* width: 62px;
+    height: 42px; */
+}  
+
+ul li.paraguay{
+    background: url('../img/flag-paraguay.jpg')  no-repeat top left;
+    /* width: 62px;
+    height: 42px; */
+}  
+
+ul li.brazil{
+    background: url('../img/flag-brazil.jpg')  no-repeat top left;
+    /* width: 62px;
+    height: 42px; */
+}  
+
+ul li.ecuador{
+    background: url('../img/flag-ecuador.jpg')  no-repeat top left;
+    /* width: 62px;
+    height: 42px; */
+}  
+
+ul li.haiti{
+    background: url('../img/flag-haiti.jpg')  no-repeat top left;
+    /* width: 62px;
+    height: 42px; */
+}  
+
+ul li.peru{
+    background: url('../img/flag-peru.jpg')  no-repeat top left;
+    /* width: 62px;
+    height: 42px; */
+}  
+
+ul li.mexico{
+    background: url('../img/flag-mexico.jpg')  no-repeat top left;
+    /* width: 62px;
+    height: 42px; */
+}  
+
+ul li.uruguay{
+    background: url('../img/flag-uruguay.jpg')  no-repeat top left;
+    /* width: 62px;
+    height: 42px; */
+}  
+
+ul li.jamaica{
+    background: url('../img/flag-jamaica.jpg')  no-repeat top left;
+    /* width: 62px;
+    height: 42px; */
+}  
+
+ul li.venezuela{
+    background: url('../img/flag-venezuela.jpg')  no-repeat top left;
+    /* width: 62px;
+    height: 42px; */
+}  
+
+ul li.argentina{
+    background: url('../img/flag-argentina.jpg')  no-repeat top left;
+    /* width: 62px;
+    height: 42px; */
+}  
+
+ul li.chile{
+    background: url('../img/flag-chile.jpg')  no-repeat top left;
+    /* width: 62px;
+    height: 42px; */
+}  
+
+ul li.panama{
+    background: url('../img/flag-panama.jpg')  no-repeat top left;
+    /* width: 62px;
+    height: 42px; */
+}  
+
+ul li.bolivia{
+    background: url('../img/flag-bolivia.jpg')  no-repeat top left;
+    /* width: 62px;
+    height: 42px; */
+}    
+
+.groupheader {
+	color: #fff;
+	background-color: #0d214f;
+	padding: 10px;
+	margin: 0;
+}
+
+.group {
+	background-color: #ebebeb;
+	padding: 20px 30px;
+	font-size: 20px;
+}
+
+/* End Custom Styles */ 
