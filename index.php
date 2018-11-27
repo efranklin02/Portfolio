@@ -121,7 +121,7 @@
       <div class="thumbnail">
         <a href="http://ericfranklin.net/puma-tricks/index.php" target="_blank"><img class="wow fadeIn" src="img/pumaThumb.jpg" alt="Puma Tricks"></a>
         <h3><strong>Puma Tricks</strong></h3>
-        <p>Fully responsive landing page designed for the Puma Tricks marketing campaign. Worked with designers and marketing managers to come up with the best UX solutions.</p>
+        <p>Fully responsive landing page designed for the Puma Tricks marketing campaign.</p>
         <a href="http://ericfranklin.net/puma-tricks/index.php" target="_blank"><button class="btn">SEE MORE</button></a>
       </div>
     </div>
