@@ -267,11 +267,12 @@
       <h3 class="text-center"><strong>Also Familiar With</strong></h3><br>
       
       <div id="demo3">
+        <p>WebPack</p>
         <p>Gulp</p>
         <p>PHP</p>
-        <p>Java</p>
+        <p>Git/ Git Hub</p>
+        <p>Typescript</p>
         <p>SEO</p>
-        <p>Git Hub</p>
         <p>Video Editing</p>
       </div>
     </div>
@@ -295,12 +296,13 @@
 
   <div class="tab-content">
   <div id="first" class="tab-pane fade in active">
-      <h3 class="text-center">Volvo Group <em><small>August 2017 - present</small></em></h3>
+      <h3 class="text-center">Volvo Group <em><small>August 2017 - November 2018</small></em></h3>
       	<div class="list-group">
       		<button type="button" class="list-group-item">Provided UX consultation for Volvo Trucks Oracle CRM solution</button>
       		<button type="button" class="list-group-item">Improved front-end CRM experience with custom CSS and Jquery code</button>
   			<button type="button" class="list-group-item">Worked with the Volvo mobile team to design prototypes for customer iPad apps using Balsamiq and Photoshop</button>
   			<button type="button" class="list-group-item">Designed and developed a responsive web admin application using PHP, Javascript, CSS</button>
+        <button type="button" class="list-group-item">Created interactive KPI charts for our analytics application using HTML 5 canvas and Javascript</button>
   		</div>
     </div>
     <div id="menu1" class="tab-pane fade">
