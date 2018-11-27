@@ -258,6 +258,7 @@
         <p>Adobe After Effects</p>
         <p>Adobe Premiere Pro</p>
         <p>Sketch</p>
+        <p>Balsamiq</p>
         <p>Wordpress</p>
         <p>IBM Websphere Portal</p>
         <p>Expression Engine</p>
