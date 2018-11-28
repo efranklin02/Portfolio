@@ -298,6 +298,7 @@
   <div class="tab-content">
   <div id="first" class="tab-pane fade in active">
       <h3 class="text-center">Volvo Group <em><small>August 2017 - November 2018</small></em></h3>
+      <p class="text-center">UX/UI Developer Consultant</p>
       	<div class="list-group">
       		<button type="button" class="list-group-item">Provided UX consultation for Volvo Trucks Oracle CRM solution</button>
       		<button type="button" class="list-group-item">Improved front-end CRM experience with custom CSS and Jquery code</button>
@@ -308,6 +309,7 @@
     </div>
     <div id="menu1" class="tab-pane fade">
       <h3 class="text-center">Sports Endeavors <em><small>August 2009 - August 2017</small></em></h3>
+      <p class="text-center">Senior Web/UX Designer and Front-end Developer</p>
       	<div class="list-group">
       		<button type="button" class="list-group-item">Provided UX Design and strategy for our flagship site Soccer.com</button>
       		<button type="button" class="list-group-item">Collaborated with fellow designers, to create wireframes, mockups, prototypes, UI assets, and other design artifacts as needed.</button>
@@ -324,6 +326,7 @@
     </div>
     <div id="menu2" class="tab-pane fade">
       <h3 class="text-center">Atlantic BT <em><small>May 2009 – July 2009</small></em></h3>
+      <p class="text-center">Web Designer</p>
           <div class="list-group">
   			<button type="button" class="list-group-item">Designed websites mockups and wireframes for new clients.</button>
   			<button type="button" class="list-group-item">Developed the UI for websites using HTML, CSS and javascript</button>
@@ -332,6 +335,7 @@
     </div>
     <div id="menu3" class="tab-pane fade">
       <h3 class="text-center">Media General / WNCN <em><small>December 2007 – March 2009</small></em></h3>
+      <p class="text-center">Lead Multimedia Designer</p>
           <div class="list-group">
   			<button type="button" class="list-group-item">Served as lead designer for the creation of the MyNC.com websites and redesign of NBC17.com. Also wrote CSS and HTML for these sites</button>
   			<button type="button" class="list-group-item">Implemented MyNC.com and NBC17.com into Expression engine</button>
@@ -342,6 +346,7 @@
     </div>
     <div id="menu4" class="tab-pane fade">
       <h3 class="text-center">Times Digital Group <em><small>October 2004 – November 2007</small></em></h3>
+      <p class="text-center">Web Designer</p>
           <div class="list-group">
   			<button type="button" class="list-group-item">Designed and developed websites from the wire-framing and mockup stage into HTML and CSS</button>
   			<button type="button" class="list-group-item">Created multimedia applications using Flash</button>
