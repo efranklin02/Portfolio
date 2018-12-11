@@ -113,7 +113,8 @@
       <div class="thumbnail">
         <a href="https://www.soccer.com/" target="_blank"><img class="wow fadeIn" src="img/newsoccerThumb.jpg" alt="SOCCER.COM"></a>
         <h3><strong>SOCCER.COM</strong></h3>
-        <p>I've been involved with three redesigns while at Soccer.com, this most recent one was launched in April 2017. </p>
+        <h4><span class="badge badge-primary">Role in Project</span> UX Designer and Front-End Developer</h4>
+        <p>I was involved with three redesigns while at Soccer.com, this most recent one was launched in April 2017. This was a full site redesign which included an e-commerce platform change and the move to a fully responsive design. I served as a UX designer on this project and worked directly with PointSource agency for over a year on the project. I also assisted on much of the CSS development.</p>
         <a href="https://www.soccer.com/" target="_blank"><button class="btn">SEE MORE</button></a>
       </div>
     </div>
@@ -121,23 +122,17 @@
       <div class="thumbnail">
         <a href="http://ericfranklin.net/puma-tricks/index.php" target="_blank"><img class="wow fadeIn" src="img/pumaThumb.jpg" alt="Puma Tricks"></a>
         <h3><strong>Puma Tricks</strong></h3>
-        <p>Fully responsive landing page designed for the Puma Tricks marketing campaign.</p>
+        <h4><span class="badge badge-primary">Role in Project</span> Lead UX Designer and Front-End Developer</h4>
+        <p>Fully responsive landing page designed for the Puma Tricks marketing campaign. My responsiblites included gathering product photography from our photography department and gathering player imagery and videos from Puma for use in the construction of the landing page. Meeting with other stakeholders to determine the visual design.</p>
         <a href="http://ericfranklin.net/puma-tricks/index.php" target="_blank"><button class="btn">SEE MORE</button></a>
       </div>
     </div>
-    <!-- <div class="col-sm-4">
-      <div class="thumbnail">
-        <a href="http://www.arsenalstoreusa.com/" target="_blank"><img class="wow fadeIn" src="img/arsenalThumb.png" alt="Arsenal Store USA"></a>
-        <h3><strong>Arsenal Store USA</strong></h3>
-        <p>Built the front end for the whole site with the exception of the checkout flow and account pages. Helped implement the site into Websphere commerce.</p>
-        <a href="http://www.arsenalstoreusa.com/" target="_blank"><button class="btn">SEE MORE</button></a>
-      </div>
-    </div> -->
     <div class="col-sm-4">
       <div class="thumbnail">
         <a href="http://ericfranklin.net/nike-mercurial/index.php" target="_blank"><img class="wow fadeIn" src="img/mercurialThumb.png" alt="Nike Mercurial"></a>
         <h3><strong>Nike Mercurial</strong></h3>
-        <p>Designed and developed this responsive site built on the foundation framework for the Nike Mercurial marketing campaign in 2016. </p>
+        <h4><span class="badge badge-primary">Role in Project</span> Lead UX Designer and Front-End Developer</h4>
+        <p>I designed and developed this responsive site built on the foundation framework for the Nike Mercurial marketing campaign. Responsiblites included gathering marketing materials from Nike for use on the landing page. Meeting with stakeholders to determine the user expereince after a series of wireframes and prototypes. Building the final layout with HTML, CSS and Javascript.</p>
         <a href="http://ericfranklin.net/nike-mercurial/index.php" target="_blank"><button class="btn">SEE MORE</button></a>
       </div>
     </div>
@@ -148,7 +143,8 @@
       <div class="thumbnail">
         <img class="wow fadeIn" src="img/soccer-womensThumb.jpg" alt="Soccer.com Women's Category Page">
         <h3><strong>Soccer.com Women's Category Page</strong></h3>
-        <p>Soccer.com category landing page design concept I created prior to 2017 redesign.</p>
+        <h4><span class="badge badge-primary">Role in Project</span> Lead UX Designer</h4>
+        <p>I served as the lead UX visual designer for the Soccer.com category landing page design concept. This idea was primarily for the women's cateogory page but the same concepts were used on additional category landing pages.</p>
         <button type="button" class="btn" data-toggle="modal" data-target=".bs-example-modal-lg">SEE MORE</button>
         
         <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
@@ -172,43 +168,30 @@
       <div class="thumbnail">
         <a href="http://ericfranklin.net/nike-hypervenom-neymar/index.php" target="_blank"><img class="wow fadeIn" src="img/hypervenomThumb.png" alt="Nike Hypervenom"></a>
         <h3><strong>Nike Hypervenom</strong></h3>
-        <p>Designed and developed this responsive landing page for the Nike Hypervenom marketing campaign. </p>
+        <h4><span class="badge badge-primary">Role in Project</span> Lead UX Designer and Front-End Developer</h4>
+        <p>I designed and developed this responsive landing page for the Nike Hypervenom marketing campaign. I worked with junior graphic designers and the marketing team in the creation of this page. I also did all of the front-end development. </p>
         <a href="http://ericfranklin.net/nike-hypervenom-neymar/index.php" target="_blank"><button class="btn">SEE MORE</button></a>
       </div>
     </div>
-    <!-- <div class="col-sm-4">
-      <div class="thumbnail">
-        <a href="http://ericfranklin.net/Nike-USA-Kit/index.php" target="_blank"><img class="wow fadeIn" src="img/usaThumb.png" alt="Nike USA Kit"></a>
-        <h3><strong>Nike USA Kit</strong></h3>
-        <p>Designed and developed this landing page for the Nike USA jersey promotion. Worked with Nike on the design and asset delivery.</p>
-        <a href="http://ericfranklin.net/Nike-USA-Kit/index.php" target="_blank"><button class="btn">SEE MORE</button></a>
-      </div>
-    </div> -->
-    
     
     <div class="col-sm-4">
       <div class="thumbnail">
         <a href="images/custom.pdf" target="_blank"> <img class="wow fadeIn" src="images/custom-thumb.jpg" alt="Customization Wireframe"></a>
         <h3><strong>Customization UI Wireframe</strong></h3>
-        <p>Wireframe created for SOCCER.COM when we redesigned the customization feature on the product page in 2015.</p>
+        <h4><span class="badge badge-primary">Role in Project</span> UX Designer</h4>
+        <p>Wireframe created for SOCCER.COM when we redesigned the customization feature on the product page. My responsiblites included: Gathering information from customer feedback and stakeholder interviews, building rapid iterations and prototypes, and working closely with developers to determine functionality.</p>
         <a href="images/custom.pdf" target="_blank"><button class="btn">SEE MORE</button></a>
       </div>
     </div>
  </div>   
 <div class="row text-center">
-    <!-- <div class="col-sm-4">
-      <div class="thumbnail">
-        <a href="http://www.psgusastore.com/" target="_blank"><img class="wow fadeIn" src="img/psgThumb.png" alt="PSG Store USA"></a>
-        <h3><strong>PSG Store</strong></h3>
-        <p>Built the front end for the homepage, product page and plp pages. Assisted with the implementation into Websphere commerce.</p>
-        <a href="http://www.psgusastore.com/" target="_blank"><button class="btn">SEE MORE</button></a>
-      </div>
-    </div> -->
+    
      <div class="col-sm-4">
       <div class="thumbnail">
         <a href="http://www.etsuhoops.com" target="_blank"><img class="wow fadeIn" src="img/etsuThumb.png" alt="ETSU Hoops"></a>
         <h3><strong>ETSU Hoops Blog</strong></h3>
-        <p>Fan blog for the East Tennessee State basketball team. I designed the responsive theme and implemented it into Wordpress.</p>
+        <h4><span class="badge badge-primary">Role in Project</span> Lead UX Designer and Wordpress Developer</h4>
+        <p>Fan blog for the East Tennessee State basketball team that I created in my own time. I designed the responsive theme and implemented it into the Wordpress CMS.</p>
         <a href="http://www.etsuhoops.com" target="_blank"><button class="btn">SEE MORE</button></a>
       </div>
     </div>
@@ -216,18 +199,44 @@
       <div class="thumbnail">
         <a href="http://www.rbitricities.com" target="_blank"><img class="wow fadeIn" src="img/rbiThumb.jpg" alt="RBI Tri-Cities"></a>
         <h3><strong>RBI Tri-Cities</strong></h3>
-        <p>Created original theme for implementation into Wordpress. Worked directly with the client and developer on design.</p>
+        <h4><span class="badge badge-primary">Role in Project</span> Lead UX Designer</h4>
+        <p>This is a freelance project where I was the Lead Visual UX designer. I created original theme for implementation into Wordpress. I worked directly with the client and developer on the design concepts.</p>
         <a href="http://www.rbitricities.com" target="_blank"><button class="btn">SEE MORE</button></a>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="thumbnail">
+        <img class="wow fadeIn" src="img/apcm-kpiThumb.png" alt="CRM KPI">
+        <h3><strong>Volvo CRM KPI Charts for France dealership</strong></h3>
+        <h4><span class="badge badge-primary">Role in Project</span> UX Designer and Front-End Developer</h4>
+        <p>This project for Volvo Trucks had me design and develop a series of animated KPI charts for dealerships across all of France for integration into their CRM. I worked directly with the lead CRM developer and the France team to determine needs and functionality. I leveraged the HTML Canvas tool and javascript to animate and update the charts each time a new filter was selected. This project was highly valued by the team in France and seen as a huge success.</p>
+        <button type="button" class="btn" data-toggle="modal" data-target=".kpi-modal-lg">SEE MORE</button>
+        
+    <div class="modal fade kpi-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabell">
+  			<div class="modal-dialog modal-lg" role="document">
+    			<div class="modal-content">
+    				<div class="modal-header">
+       					 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        					<h3 class="modal-title">Volvo CRM KPI Charts for France dealership</h3>
+     				 </div>
+     				 <div class="modal-body">
+    					<img src="img/apcm-kpi.png" style="width: 100%; max-width: 800px; height: auto;" />
+    				</div>
+    			</div>
+ 		   </div>
+    </div>
+    
+    </div>
+    </div>
+    <!-- <div class="col-sm-4">
+      <div class="thumbnail">
         <a href="images/evoPOWER-1-14-16.pdf" target="_blank"> <img class="wow fadeIn" src="images/evoPower-thumb.jpg" alt="Puma evoPower 1.3 Wireframe"></a>
         <h3><strong>Puma evoPower 1.3 Wireframe</strong></h3>
+        <h4><span class="badge badge-primary">Role in Project</span> Lead UX Designer and Front-End Developer</h4>
         <p>Wireframe created for the Puma evoPower 1.3 footwear launch. The interactive landing page was based off this wireframe.</p>
         <a href="images/evoPOWER-1-14-16.pdf" target="_blank"><button class="btn">SEE MORE</button></a>
       </div>
-    </div>
+    </div> -->
 </div>
 </section>  <!-- End Portfolio Section -->
 
@@ -250,11 +259,12 @@
       </div>
     </div>
     <div class="col-sm-4">
-      <h3 class="text-center"><strong>Software and CMS</strong></h3><br>
+      <h3 class="text-center"><strong>Design Software and CMS</strong></h3><br>
       
       <div id="demo2">
         <p>Adobe Photoshop</p>
         <p>Adobe Illustrator</p>
+        <p>Adobe InDesign</p>
         <p>Adobe After Effects</p>
         <p>Adobe Premiere Pro</p>
         <p>Sketch</p>
@@ -271,7 +281,7 @@
         <p>WebPack</p>
         <p>Gulp</p>
         <p>PHP</p>
-        <p>Git/ Git Hub</p>
+        <p>Git/Git Hub</p>
         <p>Typescript</p>
         <p>SEO</p>
         <p>Video Editing</p>
@@ -284,7 +294,7 @@
 <section id="exp" class="text-center expwrap">
   <div class="container-fluid">
     <h2 class="text-center">EXPERIENCE</h2>
-    <p class="text-center">Interactive Web Designer and Front-End Web Developer with 14+ years’ experience in designing, and implementing front-end interfaces for consumer facing web applications. Primary specialties include, UX Design, HTML5, CSS3 and Wordpress. Additional skills include designing and developing responsive websites using Foundation and Bootstrap frameworks. Reliable and efficient working independently or in team settings. Experience with both waterfall and agile development environments.</p>
+    <p class="text-center">Passionate UX Web Designer and Front-End Web Developer with 14+ years’ experience in designing, and implementing front-end interfaces for consumer facing web applications. Primary specialties include, UX Design, HTML5, CSS3, JavaScript/Jquery and Wordpress. Additional skills include designing and developing responsive websites using Foundation and Bootstrap frameworks. Reliable and efficient working independently or in team settings. Experience with both waterfall and agile development environments.</p>
     
     
     <ul class="nav nav-tabs nav-justified" role="tablist">
@@ -359,39 +369,6 @@
 </div>
 </section> <!-- End EXP Content-->
 
-
-<!-- Contact Section -->
-<!-- <section id="contact" class="container-fluid contactwrap">
-  <h2 class="text-center">Contact</h2>
-
-  <div class="row">
-    <div class="col-md-2">
-      <p>Need Web Development or Design? Contact me for a quote.</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span>Winston-Salem, NC</p>
-      <p><span class="glyphicon glyphicon-envelope"></span>Email: mail@mail.com</p>
-    </div>
-    <div class="col-md-10">
-      <div class="row">
-      	<form action="sendemail.php" method="post" enctype="text/plain">
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-        </div>
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-        </div>
-      </div>
-      <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
-      <br>
-      <div class="row">
-        <div class="col-md-12 form-group">
-          <button class="btn pull-right" type="submit">Send</button>
-        </div>
-      </div>
-      </form>
-    </div>
-  </div>
-</section> -->
-<!-- End Contact Section -->
 
 <!-- Footer -->
 <footer class="text-center">
